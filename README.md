@@ -13,6 +13,7 @@ Esse repositório contém todo conteúdo do curso:
 **Repositórios:**
 
 >**configuração-ambiente**
+>
 >Contém diversas configurações feitas durante às aulas.
 >Deverá conter configurações das Tools utilizadas na Stack.
 
