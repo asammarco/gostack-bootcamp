@@ -1,5 +1,4 @@
-# configuracao_ambiente
-## Configurações iniciais do ambiente de desenvolvimento.
+# Configurações do ambiente de desenvolvimento.
 
 Verifique o arquivo `setttings.json` para conferir as configurações feitas no 
 VS Code, antes de iniciarmos o Curso.
