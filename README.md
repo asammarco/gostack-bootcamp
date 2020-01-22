@@ -1,5 +1,4 @@
 # gostack-bootcamp
-## GoStack Bootcamp Repository.
 
 Repositório criado para a GoStack Bootcamp.
 Esse repositório contém todo conteúdo do curso: 
