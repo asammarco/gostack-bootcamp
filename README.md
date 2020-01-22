@@ -7,7 +7,6 @@ Esse repositório contém todo conteúdo do curso:
 - Códigos das aulas
 - Dicas e Hacks
 - Plugins/Tools utilizadas
-- Etc
 
 **Repositórios:**
 
