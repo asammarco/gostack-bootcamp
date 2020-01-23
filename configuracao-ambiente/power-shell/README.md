@@ -1,6 +1,6 @@
 # Dracula-Theme For PowerShell Prompt
 
-> Sample Imagens:
+> Veja nas imanges abaixo como ficou o terminal:
 
 > Untracked Files: 1 arquivo não adicionado ao git (! ao final).
 ![untracked_files](https://github.com/asammarco/gostack-bootcamp/blob/master/configuracao-ambiente/power-shell/dracula-theme/sample-images/untracked_files.png)
@@ -13,3 +13,6 @@
 
 > Pushed Files: Repositório totalmente atualizado (≡ ao final, e letras verdes).
 ![pushed_files](https://github.com/asammarco/gostack-bootcamp/blob/master/configuracao-ambiente/power-shell/dracula-theme/sample-images/pushed_files.png)
+
+
+### Início Das Configurações
