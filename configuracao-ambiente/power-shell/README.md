@@ -1,5 +1,17 @@
 # Dracula-Theme For PowerShell Prompt
 
+### 
+
+``
+***"E das sombras se fez a luz"***
+``
+
+![Drácula  Avatar](https://avatars2.githubusercontent.com/u/19436447?s=200&v=4)
+
+>O que iremos fazer é instalar o Drácula-Theme no Windows PowerShell
+>Confira https://github.com/dracula/dracula-theme
+
+
 > Veja nas imanges abaixo como ficou o terminal:
 
 > Untracked Files: 1 arquivo não adicionado ao git (! ao final).
