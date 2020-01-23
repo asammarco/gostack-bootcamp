@@ -2,7 +2,7 @@
 
 ### "E das sombras se fez a luz"
 
-O que iremos fazer é instalar o Drácula-Theme no Windows PowerShell. Esse tema é muito utilizado por diversos programdores, no entanto, sua configuração para o PS não é tão trivial. Por isso, mão a obra:
+O que iremos fazer é instalar o Drácula-Theme no Windows PowerShell. Esse tema é muito utilizado por diversos programdores, no entanto, sua configuração no PS não é tão trivial. Por isso, mão a obra:
 
 [![Drácula  Avatar](https://avatars2.githubusercontent.com/u/19436447?s=200&v=4 "Confira o repositório do Dracula-Theme")](https://github.com/dracula/dracula-theme)
 
