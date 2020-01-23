@@ -1,4 +1,4 @@
-#Dracula-Theme For PowerShell Prompt
+# Dracula-Theme For PowerShell Prompt
 
 > Sample Imagens:
 
