@@ -22,6 +22,14 @@ Assim, poderemos ter um tema tão minimalista quanto Oh-My-Zsh Spaceship, e tant
 
 > ***[Confira o repositório do Oh-My-Posh aqui](https://github.com/JanDeDobbeleer/oh-my-posh)***
 
+
+# Install
+
+### "Frutificai"
+
+
+
+
 > Veja nas imanges abaixo como ficou o terminal:
 
 > Untracked Files: 1 arquivo não adicionado ao git (! ao final).
