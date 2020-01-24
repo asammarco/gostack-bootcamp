@@ -1,6 +1,6 @@
 # Dracula-Theme For PowerShell Prompt
 
-# "E das sombras se fez a luz" {style=text-align:right}
+> *"E das sombras se fez a luz"*
 
 # Introdução
 
@@ -32,7 +32,7 @@ Utilizando esse módulo, poderemos construir um tema tão minimalista quanto Oh-
 
 # Drácula-Theme: Install & Config
 
-### "Frutificai"
+> *"Frutificai"*
 
 ### Fontes
 
