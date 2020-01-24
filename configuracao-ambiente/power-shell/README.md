@@ -2,10 +2,6 @@
 
 ### "E das sombras se fez a luz"
 
-Drácula-Theme instalado no PowerShell:
-
-> ![Drácula Theme](https://github.com/asammarco/gostack-bootcamp/blob/master/configuracao-ambiente/power-shell/dracula-theme/sample-images/dracula_theme_power_shell.png "Terminal já configurado com o Drácula -Theme")
-
 
 Tema minimalista construído com Oh-My-Posh:
 
@@ -16,6 +12,10 @@ Tema minimalista construído com Oh-My-Posh:
 #### Drácula-Theme
 
 O que iremos fazer é instalar o Drácula-Theme no Windows PowerShell. Esse tema é muito utilizado por diversos programdores, no entanto, sua configuração no PS não é tão trivial.
+
+**Drácula-Theme instalado no PowerShell:**
+
+> ![Drácula Theme](https://github.com/asammarco/gostack-bootcamp/blob/master/configuracao-ambiente/power-shell/dracula-theme/sample-images/dracula_theme_power_shell.png "Terminal já configurado com o Drácula -Theme")
 
 Primeiro, utilizaremos o módulo Posh-Git do PowerShell para obter e exibir informações, do repositório em que estamos, no terminal. Por meio desse módulo, selecionamos quais informações devem ser exibidas, através da edição do arquivo de profile (.psm) do PS.
 
