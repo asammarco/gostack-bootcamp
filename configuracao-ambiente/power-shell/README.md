@@ -144,7 +144,7 @@ Agora, basta reiniciar o seu terminal e verificar as alterações.
 ### Construindo nosso Minimal-Theme
 
 
-### Fonte
+### Referências
 
 [Dracula-Theme for PowerShell](https://draculatheme.com/powershell/)
 
