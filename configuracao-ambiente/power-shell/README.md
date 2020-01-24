@@ -2,11 +2,6 @@
 
 ### "E das sombras se fez a luz"
 
-
-Tema minimalista construído com Oh-My-Posh:
-
-> ![Tema minimalista utilizando Oh-My-Posh](https://github.com/asammarco/gostack-bootcamp/blob/master/configuracao-ambiente/power-shell/dracula-theme/sample-images/minimal_theme.png "Tema minimalista utilizando Oh-My-Posh")
-
 # Introdução
 
 #### Drácula-Theme
@@ -26,6 +21,10 @@ Vamos supor que você queira customizar ainda mais o seu Terminal, e deixá-lo c
 #### Oh-My-Posh
 
 Precisamos editar(limpar) nosso terminal(símbolos, caracteres, cores etc) e ainda, preservar a exibição de cada mudança de estado (ou status) do nosso repositório, com alguma lógica de programação.
+
+**Tema minimalista construído com Oh-My-Posh:**
+
+> ![Tema minimalista utilizando Oh-My-Posh](https://github.com/asammarco/gostack-bootcamp/blob/master/configuracao-ambiente/power-shell/dracula-theme/sample-images/minimal_theme.png "Tema minimalista utilizando Oh-My-Posh")
 
 Não faremos isso do ZERO. Utilizaremos um outro plugin chamado "Oh-My-Posh". Ele funciona de forma parecida com o plugin "Oh-My-Zsh" do "Zsh" (Terminal disponível somente para sistemas Unix: MacOS, Linux, etc), e através dele podemos instalar muitos temas já prontos, e ainda, desenvolver e customizar os nossos próprios.
 
