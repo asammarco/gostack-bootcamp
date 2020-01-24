@@ -8,10 +8,10 @@ O que iremos fazer é instalar o Drácula-Theme no Windows PowerShell. Esse tema
 
 Primeiro, utilizaremos o módulo Posh-Git do PowerShell para obter e exibir informações, do repositório em que estamos, no terminal. Por meio desse módulo, selecionamos quais informações devem ser exibidas, através da edição do arquivo de profile (.psm) do PS.
 
+> ![Drácula Theme](https://github.com/asammarco/gostack-bootcamp/blob/master/configuracao-ambiente/power-shell/dracula-theme/sample-images/dracula_theme_power_shell.png "Terminal já configurado com o Drácula -Theme")
+
 Nesse ponto, nosso trabalho já estará 99% finalizado. Mas e se quisermos um console um pouco mais minimalist, com alguns simbolos diferentes, bem como cores?
 Vamos supor que você queira customizar ainda mais o seu Terminal, e deixá-lo com uma aparência mais clean, e de forma fácil...
-
-> ![Drácula Theme](https://github.com/asammarco/gostack-bootcamp/blob/master/configuracao-ambiente/power-shell/dracula-theme/sample-images/dracula_theme_power_shell.png "Terminal já configurado com o Drácula -Theme")
 
 
 #### Segunda Parte
