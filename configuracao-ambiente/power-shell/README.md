@@ -117,7 +117,7 @@ Por fim, você pode alterar o background do terminal, com a cor padrão de backg
 **Em propriedades do terminal, novamente:**
 > ![Set Background Color](https://github.com/asammarco/gostack-bootcamp/blob/master/configuracao-ambiente/power-shell/dracula-theme/sample-images/power_shell_dracula_background_color.png "Cores > Core De Fundo > Vermelho:40, Verde: 42 e Azul:54")
 
-***Obs: Poderíamos ter feito isso via $profile.***
+***Obs: Poderíamos ter feito isso via profile.***
 
 Nossas configurações estão prontas.
 Agora, basta reiniciar o seu terminal e verificar as alterações.
