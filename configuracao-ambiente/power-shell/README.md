@@ -142,3 +142,22 @@ Agora, basta reiniciar o seu terminal e verificar as alterações.
 
 
 ### Construindo nosso Minimal-Theme
+
+
+### Fonte
+
+[Dracula-Theme for PowerShell](https://draculatheme.com/powershell/)
+
+[Will Fuqua: dracula-prompt-configuration.ps1](https://github.com/dracula/powershell/blob/master/theme/dracula-prompt-configuration.ps1)
+
+[Dracula-Theme . Git-hub](https://github.com/dracula/dracula-theme)
+
+[Posh-Git: A PowerShell environment for Git](https://www.jishuwen.com/d/2dMU)
+
+[Oh-My-Posh](https://github.com/JanDeDobbeleer/oh-my-posh)
+
+[Fira Code . Google](https://fonts.google.com/specimen/Fira+Code)
+
+[Fira Code . Nerd fonts](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/FiraCode)
+
+[PowerShell Scripting . Microsoft Reference Guide](https://docs.microsoft.com/pt-br/powershell/scripting/overview?view=powershell-7)
