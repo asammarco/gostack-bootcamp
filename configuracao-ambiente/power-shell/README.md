@@ -122,6 +122,7 @@ Nossas configurações estão prontas!
 Agora, basta reiniciar o seu terminal e verificar as alterações.
 
 **Ele deve estar assim:**
+> ![Drácula-Theme PowerShell](https://github.com/asammarco/gostack-bootcamp/blob/master/configuracao-ambiente/power-shell/dracula-theme/sample-images/dracula_theme_power_shell.png "Drácula-Theme PowerShell")
 
 
 
