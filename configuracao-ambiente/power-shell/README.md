@@ -77,7 +77,7 @@ Para configurar nosso terminal com o nosso Thema, iremos editar o nosso arquivo 
 
 **Veja abaixo:**
 
-> [Profile File](https://github.com/asammarco/gostack-bootcamp/blob/master/configuracao-ambiente/power-shell/dracula-theme/sample-images/main_profile_power_shell.png "Diretório e arquivo a ser editado")
+> ![Profile File](https://github.com/asammarco/gostack-bootcamp/blob/master/configuracao-ambiente/power-shell/dracula-theme/sample-images/main_profile_power_shell.png "Diretório e arquivo a ser editado")
 
 
 
