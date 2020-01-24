@@ -108,7 +108,9 @@ $GitPromptSettings.BranchColor.ForegroundColor = [ConsoleColor]::Blue
 $GitPromptSettings.AfterStatus.ForegroundColor = [ConsoleColor]::Blue
 ```
 
+**Seu arquivo deve ficar da seguinte forma:**
 
+> ![Arquivo PowerShell](https://github.com/asammarco/gostack-bootcamp/blob/master/configuracao-ambiente/power-shell/dracula-theme/sample-images/power_shell_dracula_theme_settings.png "Arquivo profile PowerShell editado.")
 
 
 
