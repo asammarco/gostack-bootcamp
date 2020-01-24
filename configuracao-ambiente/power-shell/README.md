@@ -23,7 +23,7 @@ Assim, poderemos ter um tema tão minimalista quanto Oh-My-Zsh Spaceship, e tant
 > ***[Confira o repositório do Oh-My-Posh aqui](https://github.com/JanDeDobbeleer/oh-my-posh)***
 
 
-# Primeira Parte: Install
+# Primeira Parte: Install & Config
 
 ### "Frutificai"
 
@@ -37,12 +37,16 @@ Ao acessar o repositório, vá até "Solution > Download V2". Faça download e a
 
 **Veja abaixo**
 
-> ![Instalação Da Fonte TTF](https://github.com/asammarco/gostack-bootcamp/blob/master/configuracao-ambiente/power-shell/dracula-theme/sample-images/Fira%20Code%20Retina.png "Dê dois clicks sobre a fonte para instalar")
+> ![Fonte Fira Code TTF](https://github.com/asammarco/gostack-bootcamp/blob/master/configuracao-ambiente/power-shell/dracula-theme/sample-images/Fira%20Code%20Retina.png "Dê dois clicks sobre a fonte para instalar")
 
-**Após, no terminal escolha a fonte recém instalada:** 
+**Clique com botão na borda do cabeçalho do terminal do PowerShell, em propriedades, escolha  a fonte instalada:**
 > `PowerShell > propriedades > Fonte > "Fira Code Retina"`.
 
-Vamos refazer o passo-a-passo da instalação do [Drácula-Theme](https://draculatheme.com/powershell/):
+Com a fonte já instalada e configurada em nosso terminal, podemos seguir adiante.
+
+#### Drácula-Theme: Install
+
+Vamos fazer o passo-a-passo da instalação do Drácula-Theme:
 
 **Execute o PowerShell como Administrador, e faça:**
 > `Set-ExecutionPolicy RemoteSigned -Scope CurrentUser -Confirm`
@@ -63,6 +67,15 @@ Restart o terminal, e novamente execute-o como Administrador.
 > `Get-Module PSReadLine`
 
 ***Não instale o posh-git com o Chocolatey (gerenciador de pacotes do Windows)***
+
+#### Drácula-Theme: Config
+
+Para configurar nosso terminal com o nosso Thema, iremos editar o nosso arquivo de $profile. Sempre que o PowerShell é executado ele lê esse arquivo e seta as preferências do usuário.
+
+**O arquivo de profile possui a extensão .ps1, e geralmente, fica na pasta**
+> `Documentos > WindowsPowerShell > Microsoft.PowerShell_profile.ps1`
+
+
 
 
 
