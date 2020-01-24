@@ -119,7 +119,7 @@ Por fim, você pode alterar o background do terminal, com a cor padrão de backg
 
 ***Obs: Poderíamos ter feito isso via $profile.***
 
-Nossas configurações estão prontas!
+Nossas configurações estão prontas.
 Agora, basta reiniciar o seu terminal e verificar as alterações.
 
 **Ele deve estar assim:**
