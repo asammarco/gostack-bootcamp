@@ -137,8 +137,33 @@ Agora, basta reiniciar o seu terminal e verificar as alterações.
 
 ### Install
 
+***Obs: Você já deve estar com o Posh-Git instalado***
+
+**Abra o terminal do PS como administrador, e faça:**
+> `Install-Module oh-my-posh -Scope CurrentUser`
+
+**Confira os temas instalados junto com a ferramenta:**
+> `\Documents\WindowsPowerShell\Modules\oh-my-posh\2.0.342\Themes`
+
+Finalizada a instalação, vamos brincar um pouco com essa ferramenta, e configurar alguns temas.
 
 ### Configs
+
+Você pode setar quaisquer temas contidos na pasta `Themes`, diretamente via terminal.
+
+**Para isso, utilize o comando Set-Theme:**
+> `Set-Theme Agnoster`
+
+
+
+**Baixe o arquivo onix-spaceship**
+
+Abra o arquivo de $profile do PowerShell, como feito anteriormente:
+> `Documentos > WindowsPowerShell > Microsoft.PowerShell_profile.ps1`
+
+E após, importe o módulo instalado, da seguinte forma:
+> `Import-Module oh-my-posh`
+
 
 
 ### Construindo nosso Minimal-Theme
