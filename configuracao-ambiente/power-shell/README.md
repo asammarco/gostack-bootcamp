@@ -30,9 +30,6 @@ Não faremos isso do ZERO. Utilizaremos um outro plugin chamado "Oh-My-Posh". El
 
 Utilizando esse módulo, poderemos construir um tema tão minimalista quanto Oh-My-Zsh Spaceship, ou utilizar temas já prontos. Dessa forma, nos beneficiamos com uma customização que nos ajude a codar de forma mais efetiva, ao ajustar o nosso ambiente de desenvolvimento conforme nossas necessidades.
 
-"Por exemplo, imagine que você não queira visualizar em seu terminal, todo o caminho até o diretório em que está executando os comandos. Ou imagine que você queira alterar o seu tema utilizando uma simples função Set-Theme".
-
-
 # Drácula-Theme: Install & Config
 
 ### "Frutificai"
