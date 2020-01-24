@@ -36,7 +36,7 @@ Assim, poderemos ter um tema tão minimalista quanto Oh-My-Zsh Spaceship, e tant
 Ao acessar o repositório, vá até "Solution > Download V2". Faça download e a instale. Para isso, basta descompactar o arquivo baixado, ir até a pasta "ttf", e clicar duas vezes sobre as fontes, uma a uma. O windows se encarrega da instalação.
 
 **Veja abaixo>**
-> [![Fira Code Retina ttf](https://github.com/asammarco/gostack-bootcamp/blob/master/configuracao-ambiente/power-shell/dracula-theme/sample-images/Fira%20Code%20Retina.png "Instalação Da Fonte TTF")]
+> [(https://github.com/asammarco/gostack-bootcamp/blob/master/configuracao-ambiente/power-shell/dracula-theme/sample-images/Fira%20Code%20Retina.png "Instalação Da Fonte TTF")]
 
 **Após, no terminal escolha a fonte recém instalada:** 
 > `PowerShell > propriedades > Fonte > "Fira Code Retina"`.
