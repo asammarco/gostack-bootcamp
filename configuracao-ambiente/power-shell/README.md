@@ -24,7 +24,7 @@ Assim, poderemos ter um tema tão minimalista quanto Oh-My-Zsh Spaceship, e tant
 
 "Por exemplo, imagine que você não queira visualizar em seu terminal, todo o caminho até o diretório em que está executando os comandos. Ou imagine que você queira alterar o seu tema utilizando uma simples função Set-Theme".
 
-> ***[Confira o repositório do Oh-My-Posh aqui](https://github.com/JanDeDobbeleer/oh-my-posh)***
+> ![Tema minimalista utilizando Oh-My-Posh](https://github.com/asammarco/gostack-bootcamp/blob/master/configuracao-ambiente/power-shell/dracula-theme/sample-images/minimal_theme.png "Tema minimalista utilizando Oh-My-Posh")
 
 
 # Primeira Parte: Install & Config
