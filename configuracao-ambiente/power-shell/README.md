@@ -33,10 +33,10 @@ Assim, poderemos ter um tema tão minimalista quanto Oh-My-Zsh Spaceship, e tant
 
 [Clique aqui para acessar o repositório da fonte](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/FiraCode)
 
->Ao acessar o repositório, vá até "Solution > Download V2". Faça download e a >instale. Para isso, basta descompactar o arquivo baixado e clicar duas vezes >sobre as fontes, uma a uma. O windows se encarrega da instalação.
+Ao acessar o repositório, vá até "Solution > Download V2". Faça download e a instale. Para isso, basta descompactar o arquivo baixado e clicar duas vezes sobre as fontes, uma a uma. O windows se encarrega da instalação.
 
 **Após, no terminal escolha a fonte recém instalada:** 
-`PowerShell > propriedades > Fonte > "Fira Code Retina"`.
+> `PowerShell > propriedades > Fonte > "Fira Code Retina"`.
 
 Vamos refazer o passo-a-passo da instalação do [Drácula-Theme](https://draculatheme.com/powershell/):
 
