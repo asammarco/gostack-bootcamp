@@ -33,7 +33,7 @@ Assim, poderemos ter um tema tão minimalista quanto Oh-My-Zsh Spaceship, e tant
 
 ### "Frutificai"
 
-#### Fontes
+### Fontes
 
 **Vamos instalar e utilizar a fonte  Fira Code:**
 
@@ -131,3 +131,14 @@ Agora, basta reiniciar o seu terminal e verificar as alterações.
 
 **Finalizado todos os passos, o seu Terminal do PowerShell deve estar assim:**
 > ![Drácula-Theme PowerShell](https://github.com/asammarco/gostack-bootcamp/blob/master/configuracao-ambiente/power-shell/dracula-theme/sample-images/dracula_theme_power_shell.png "Drácula-Theme PowerShell")
+
+# Segunda Parte: Install & Config
+
+### Oh-My-Posh: Install
+Em contrução
+
+### Oh-My-Posh: Configs
+Em contrução
+
+### Oh-My-Posh: Minimal Theme
+Em contrução
