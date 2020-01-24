@@ -29,32 +29,36 @@ Assim, poderemos ter um tema tão minimalista quanto Oh-My-Zsh Spaceship, e tant
 
 #### Fontes
 
-Vamos utilizar a fonte  Fira Code. 
+**Vamos instalar e utilizar a fonte  Fira Code:**
 
 [Clique aqui para acessar o repositório da fonte](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/FiraCode)
 
-Ao acessar o repositório, vá até "Solution > Download V2". Faça download e a instale. Para isso, basta descompactar o arquivo baixado e clicar duas vezes sobre as fontes, uma a uma. O windows se enarrega da instalação.
+>Ao acessar o repositório, vá até "Solution > Download V2". Faça download e a >instale. Para isso, basta descompactar o arquivo baixado e clicar duas vezes >sobre as fontes, uma a uma. O windows se encarrega da instalação.
 
-Após, no terminal escolha a fonte recém instalada: `PowerShell > propriedades > Fonte > "Fira Code Retina"`.
+**Após, no terminal escolha a fonte recém instalada:** 
+`PowerShell > propriedades > Fonte > "Fira Code Retina"`.
 
 Vamos refazer o passo-a-passo da instalação do [Drácula-Theme](https://draculatheme.com/powershell/):
 
-Execute o PowerShell como Administrador, e faça:
+**Execute o PowerShell como Administrador, e faça:**
 > `Set-ExecutionPolicy RemoteSigned -Scope CurrentUser -Confirm`
 
-Após, vamos instalar o PowerShellGet
+**Após, vamos instalar o PowerShellGet***
 > `Install-Module PowerShellGet -Scope CurrentUser -Force -AllowClobber`
 
-E só então, instalamos o Posh-Git:
+**E só então, instalamos o Posh-Git:**
 > `PowerShellGet\Install-Module posh-git -Scope CurrentUser -AllowPrerelease -Force`
 
-Após, instalamos uma atualização do PSReadLine que soluciona problemas com as funções do prompt utilizadas pelo posh-git:
+**Após, instalamos uma atualização do PSReadLine:**
 > `Install-Module PSReadLine -Scope CurrentUser -AllowClobber -AllowPrerelease -Force`
+ ***Esta atualização soluciona problemas com as funções do prompt utilizadas pelo posh-git.***
 
-Restart o terminal, e novamente execute-o como Administrador. Confira se a versão instalada do PSReadline é a 2.0:
+Restart o terminal, e novamente execute-o como Administrador. 
+
+**Confira se a versão instalada do PSReadline é a 2.0:**
 > `Get-Module PSReadLine`
 
-*** Não instale o posh-git com o Chocolatey (gerenciador de pacotes do Windows) ***
+***Não instale o posh-git com o Chocolatey (gerenciador de pacotes do Windows)***
 
 
 
