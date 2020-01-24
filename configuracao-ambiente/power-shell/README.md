@@ -37,7 +37,7 @@ Ao acessar o repositório, vá até "Solution > Download V2". Faça download e a
 
 **Veja abaixo>**
 
-> [![Instalação Da Fonte TTF](https://github.com/asammarco/gostack-bootcamp/blob/master/configuracao-ambiente/power-shell/dracula-theme/sample-images/Fira%20Code%20Retina.png "Instalação Da Fonte TTF")]
+> ![Instalação Da Fonte TTF](https://github.com/asammarco/gostack-bootcamp/blob/master/configuracao-ambiente/power-shell/dracula-theme/sample-images/Fira%20Code%20Retina.png "Instalação Da Fonte TTF")
 
 **Após, no terminal escolha a fonte recém instalada:** 
 > `PowerShell > propriedades > Fonte > "Fira Code Retina"`.
