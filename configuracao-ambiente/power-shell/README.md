@@ -137,7 +137,7 @@ Agora, basta reiniciar o seu terminal e verificar as alterações.
 
 ### Install
 
-***Obs: Você já deve estar com o Posh-Git instalado***
+> ***Obs: Você já deve estar com o Posh-Git instalado***
 
 **Abra o terminal do PS como administrador, e faça:**
 > `Install-Module oh-my-posh -Scope CurrentUser`
