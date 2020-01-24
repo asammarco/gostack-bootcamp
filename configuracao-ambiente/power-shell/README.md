@@ -12,7 +12,7 @@
 > ![Tema minimalista utilizando Oh-My-Posh](https://github.com/asammarco/gostack-bootcamp/blob/master/configuracao-ambiente/power-shell/dracula-theme/sample-images/minimal_theme.png "Tema minimalista utilizando Oh-My-Posh")
 
 
-#### Primeira Parte
+#### Drácula-Theme
 
 O que iremos fazer é instalar o Drácula-Theme no Windows PowerShell. Esse tema é muito utilizado por diversos programdores, no entanto, sua configuração no PS não é tão trivial.
 
@@ -22,7 +22,7 @@ Nesse ponto, nosso trabalho já estará 99% finalizado. Mas e se quisermos um co
 Vamos supor que você queira customizar ainda mais o seu Terminal, e deixá-lo com uma aparência mais clean, e de forma fácil...
 
 
-#### Segunda Parte
+#### Oh-My-Posh
 
 Precisamos adicionar alguma lógica de programação, para que a cada mudança de estado (ou status) do nosso repositório, possamos alterar: símbolos, caracteres,cores etc. 
 
@@ -33,7 +33,7 @@ Assim, poderemos ter um tema tão minimalista quanto Oh-My-Zsh Spaceship, e tant
 "Por exemplo, imagine que você não queira visualizar em seu terminal, todo o caminho até o diretório em que está executando os comandos. Ou imagine que você queira alterar o seu tema utilizando uma simples função Set-Theme".
 
 
-# Primeira Parte: Install & Config
+# Drácula-Theme: Install & Config
 
 ### "Frutificai"
 
@@ -54,7 +54,7 @@ Ao acessar o repositório, vá até "Solution > Download V2". Faça download e a
 
 Com a fonte já instalada e configurada em nosso terminal, podemos seguir adiante.
 
-### Drácula-Theme: Install
+### Install
 
 Vamos fazer o passo-a-passo da instalação do Drácula-Theme:
 
@@ -78,7 +78,7 @@ Restart o terminal, e novamente execute-o como Administrador.
 
 ***Atenção: Não instale o posh-git com o Chocolatey (gerenciador de pacotes do Windows)***
 
-### Drácula-Theme: Config
+### Config
 
 Para configurar nosso terminal com o nosso Thema, iremos editar o nosso arquivo de $profile. Sempre que o PowerShell é executado ele lê esse arquivo e seta as preferências do usuário.
 
@@ -136,12 +136,12 @@ Agora, basta reiniciar o seu terminal e verificar as alterações.
 **Finalizado todos os passos, o seu Terminal do PowerShell deve estar assim:**
 > ![Drácula-Theme PowerShell](https://github.com/asammarco/gostack-bootcamp/blob/master/configuracao-ambiente/power-shell/dracula-theme/sample-images/dracula_theme_power_shell.png "Drácula-Theme PowerShell")
 
-# Segunda Parte: Install & Config
+# Oh-My-Posh
 
-### Oh-My-Posh: Install
-
-
-### Oh-My-Posh: Configs
+### Install
 
 
-### Oh-My-Posh: Minimal Theme
+### Configs
+
+
+### Construindo nosso Minimal-Theme
