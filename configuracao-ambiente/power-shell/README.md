@@ -75,6 +75,10 @@ Para configurar nosso terminal com o nosso Thema, iremos editar o nosso arquivo 
 **O arquivo de profile possui a extensão .ps1, e geralmente, fica na pasta**
 > `Documentos > WindowsPowerShell > Microsoft.PowerShell_profile.ps1`
 
+**Veja abaixo:**
+
+> [Profile File](https://github.com/asammarco/gostack-bootcamp/blob/master/configuracao-ambiente/power-shell/dracula-theme/sample-images/main_profile_power_shell.png "Diretório e arquivo a ser editado")
+
 
 
 
