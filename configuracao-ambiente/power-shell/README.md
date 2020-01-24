@@ -15,7 +15,7 @@ Vamos supor que você queira customizar ainda mais o seu Terminal, e deixá-lo c
 
 >[![Drácula  Avatar](https://avatars2.githubusercontent.com/u/19436447?s=200&v=4 "Install Dracula-Theme PowerShell")](https://draculatheme.com/powershell/)
 >
->Fig 1. Clique na imagem para conferir a instalação do Drácula-Theme no PS
+>Clique na imagem para conferir a instalação do Drácula-Theme no PS
 
 
 #### Segunda Parte
