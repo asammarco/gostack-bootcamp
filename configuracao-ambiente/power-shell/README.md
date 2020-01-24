@@ -50,7 +50,7 @@ Ao acessar o repositório, vá até "Solution > Download V2". Faça download e a
 
 Com a fonte já instalada e configurada em nosso terminal, podemos seguir adiante.
 
-#### Drácula-Theme: Install
+### Drácula-Theme: Install
 
 Vamos fazer o passo-a-passo da instalação do Drácula-Theme:
 
@@ -74,7 +74,7 @@ Restart o terminal, e novamente execute-o como Administrador.
 
 ***Atenção: Não instale o posh-git com o Chocolatey (gerenciador de pacotes do Windows)***
 
-#### Drácula-Theme: Config
+### Drácula-Theme: Config
 
 Para configurar nosso terminal com o nosso Thema, iremos editar o nosso arquivo de $profile. Sempre que o PowerShell é executado ele lê esse arquivo e seta as preferências do usuário.
 
