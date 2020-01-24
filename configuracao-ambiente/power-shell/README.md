@@ -1,6 +1,6 @@
 # Dracula-Theme For PowerShell Prompt
 
-<p styel="text-align: right;">"E das sombras se fez a luz"</p>
+<p style="text-align: right;"><cite>E das sombras se fez a luz</cite></p>
 
 # Introdução
 
