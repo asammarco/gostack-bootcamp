@@ -2,7 +2,12 @@
 
 ### "E das sombras se fez a luz"
 
+**Drácula-Theme instalado no PowerShell:**
+
 > ![Drácula Theme](https://github.com/asammarco/gostack-bootcamp/blob/master/configuracao-ambiente/power-shell/dracula-theme/sample-images/dracula_theme_power_shell.png "Terminal já configurado com o Drácula -Theme")
+
+
+**Tema minimalista construído com o Oh-My-Posh:**
 
 > ![Tema minimalista utilizando Oh-My-Posh](https://github.com/asammarco/gostack-bootcamp/blob/master/configuracao-ambiente/power-shell/dracula-theme/sample-images/minimal_theme.png "Tema minimalista utilizando Oh-My-Posh")
 
