@@ -161,3 +161,5 @@ Agora, basta reiniciar o seu terminal e verificar as alterações.
 [Fira Code . Nerd fonts](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/FiraCode)
 
 [PowerShell Scripting . Microsoft Reference Guide](https://docs.microsoft.com/pt-br/powershell/scripting/overview?view=powershell-7)
+
+[Unicode Char Table](https://www.fileformat.info/info/unicode/category/Sm/list.htm)
