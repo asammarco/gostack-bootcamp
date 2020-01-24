@@ -135,10 +135,9 @@ Agora, basta reiniciar o seu terminal e verificar as alterações.
 # Segunda Parte: Install & Config
 
 ### Oh-My-Posh: Install
-Em contrução
+
 
 ### Oh-My-Posh: Configs
-Em contrução
+
 
 ### Oh-My-Posh: Minimal Theme
-Em contrução
