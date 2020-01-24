@@ -83,7 +83,7 @@ Clique com botão direito no arquivo `Microsoft.PowerShell_profile.ps1` e após 
 
 **Insira o código abaixo:**
 
-> ```
+```
 # Dracula readline configuration. Requires version 2.0, if you have 1.2 convert to `Set-PSReadlineOption -TokenType`
 Set-PSReadlineOption -Color @{
     "Command" = [ConsoleColor]::Green
