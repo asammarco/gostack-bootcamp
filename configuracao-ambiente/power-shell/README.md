@@ -1,4 +1,4 @@
-# Dracula-Theme For PowerShell Prompt
+# Drácula-Theme For PowerShell Prompt
 
 > *"E das sombras fez se a luz"*
 
