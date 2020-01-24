@@ -145,6 +145,9 @@ Agora, basta reiniciar o seu terminal e verificar as alterações.
 **Confira os temas instalados junto com a ferramenta:**
 > `\Documents\WindowsPowerShell\Modules\oh-my-posh\2.0.342\Themes`
 
+**Veja abaixo:**
+> ![Lista de temas já instalados](https://github.com/asammarco/gostack-bootcamp/blob/master/configuracao-ambiente/power-shell/dracula-theme/sample-images/oh-my-posh-themes.png "Lista de temas já instalados")
+
 Finalizada a instalação, vamos brincar um pouco com essa ferramenta, e configurar alguns temas.
 
 ### Configs
