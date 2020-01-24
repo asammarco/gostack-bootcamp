@@ -11,6 +11,7 @@ Tema minimalista construído com Oh-My-Posh:
 
 > ![Tema minimalista utilizando Oh-My-Posh](https://github.com/asammarco/gostack-bootcamp/blob/master/configuracao-ambiente/power-shell/dracula-theme/sample-images/minimal_theme.png "Tema minimalista utilizando Oh-My-Posh")
 
+# Introdução
 
 #### Drácula-Theme
 
