@@ -131,24 +131,3 @@ Agora, basta reiniciar o seu terminal e verificar as alterações.
 
 **Finalizado todos os passos, o seu Terminal do PowerShell deve estar assim:**
 > ![Drácula-Theme PowerShell](https://github.com/asammarco/gostack-bootcamp/blob/master/configuracao-ambiente/power-shell/dracula-theme/sample-images/dracula_theme_power_shell.png "Drácula-Theme PowerShell")
-
-
-
-
-
-> Veja nas imanges abaixo como ficou o terminal:
-
-> Untracked Files: 1 arquivo não adicionado ao git (! ao final).
-![untracked_files](https://github.com/asammarco/gostack-bootcamp/blob/master/configuracao-ambiente/power-shell/dracula-theme/sample-images/untracked_files.png)
-
-> Uncommitted Files: 2 arquivos não comitados (~ ao final).
-![uncommitted_files](https://github.com/asammarco/gostack-bootcamp/blob/master/configuracao-ambiente/power-shell/dracula-theme/sample-images/uncommitted_files.png)
-
-> Unpushed Files: 1 arquivo a ser upado (↑ ao final).
-![unpushed_files](https://github.com/asammarco/gostack-bootcamp/blob/master/configuracao-ambiente/power-shell/dracula-theme/sample-images/unpushed_files.png)
-
-> Pushed Files: Repositório totalmente atualizado (≡ ao final, e letras verdes).
-![pushed_files](https://github.com/asammarco/gostack-bootcamp/blob/master/configuracao-ambiente/power-shell/dracula-theme/sample-images/pushed_files.png)
-
-
-### Início Das Configurações
