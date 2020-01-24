@@ -13,9 +13,9 @@ Primeiro, utilizaremos o módulo Posh-Git do PowerShell para obter e exibir info
 Nesse ponto, nosso trabalho já estará 99% finalizado. Mas e se quisermos um console um pouco mais minimalist, com alguns simbolos diferentes, bem como cores?
 Vamos supor que você queira customizar ainda mais o seu Terminal, e deixá-lo com uma aparência mais clean, e de forma fácil...
 
-> [![Drácula  Avatar](https://avatars2.githubusercontent.com/u/19436447?s=200&v=4 ("Clique aqui para conferir a instalação do Drácula-Theme no PS)](https://draculatheme.com/powershell/)
+>[![Drácula  Avatar](https://avatars2.githubusercontent.com/u/19436447?s=200&v=4 ("Clique aqui para conferir a instalação do Drácula-Theme no PS)](https://draculatheme.com/powershell/)
 >
-> [Clique aqui para conferir a instalação do Drácula-Theme no PS](https://draculatheme.com/powershell/)
+>[Clique aqui para conferir a instalação do Drácula-Theme no PS](https://draculatheme.com/powershell/)
 
 
 
