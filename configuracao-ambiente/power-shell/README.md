@@ -13,6 +13,8 @@ Primeiro, utilizaremos o módulo Posh-Git do PowerShell para obter e exibir info
 Nesse ponto, nosso trabalho já estará 99% finalizado. Mas e se quisermos um console um pouco mais minimalist, com alguns simbolos diferentes, bem como cores?
 Vamos supor que você queira customizar ainda mais o seu Terminal, e deixá-lo com uma aparência mais clean, e de forma fácil...
 
+[![Drácula  Avatar](https://avatars2.githubusercontent.com/u/19436447?s=200&v=4 "Confira o repositório do Dracula-Theme")](https://draculatheme.com/powershell/)
+
 
 #### Segunda Parte
 
@@ -24,10 +26,9 @@ Não faremos isso do ZERO. Utilizaremos um outro plugin chamado "Oh-My-Posh". El
 Assim, poderemos ter um tema tão minimalista quanto Oh-My-Zsh Spaceship, e tantos outros... E utilizar uma customização que nos ajude a codar de forma mais efetiva, ao ajustar o nosso ambiente de desenvolvimento conforme nossas necessidades.
 "Por exemplo, imagine que você não queira visualizar em seu terminal, todo o caminho até o diretório em que está executando os comandos. Ou imagine que você queira alterar o seu tema utilizando uma simples função Set-Theme".
 
+
 > ***[Confira o repositório do Oh-My-Posh aqui](https://github.com/JanDeDobbeleer/oh-my-posh)***
 
-
-[![Drácula  Avatar](https://avatars2.githubusercontent.com/u/19436447?s=200&v=4 "Confira o repositório do Dracula-Theme")](https://github.com/dracula/dracula-theme)
 
 
 
