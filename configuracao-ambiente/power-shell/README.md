@@ -16,6 +16,7 @@ Vamos supor que você queira customizar ainda mais o seu Terminal, e deixá-lo c
 Precisamos adicionar alguma lógica de programação, para que a cada mudança de estado (ou status) do nosso repositório, possamos alterar: símbolos, caracteres,cores etc. Não faremos isso do ZERO. Utilizaremos um outro plugin chamado "Oh-My-Posh". Ele funciona de forma parecida com o plugin "Oh-My-Zsh" do "Zsh" (Terminal disponível somente para sistemas Unix: MacOS, Linux, etc), e através dele podemos instalar muitos outros temas, e ainda, desevolver e customizar o nosso próprio.
 
 Assim, poderemos ter um tema tão minimalista quanto Oh-My-Zsh Spaceship, e tantos outros... E utilizar uma customização que nos ajude a codar de forma mais efetiva, ao ajustar o nosso ambiente de desenvolvimento conforme nossas necessidades.
+"Por exemplo, imagine que você não queira visualizar em seu terminal, todo o caminho até o diretório em que está executando os comandos".
 
 >[Confira o repositório do Oh-My-Posh aqui] *** (https://github.com/JanDeDobbeleer/oh-my-posh) ***
 
