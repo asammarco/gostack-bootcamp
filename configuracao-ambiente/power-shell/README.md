@@ -17,18 +17,26 @@ Primeiro, utilizaremos o módulo Posh-Git do PowerShell para obter e exibir info
 Nesse ponto, nosso trabalho já estará 99% finalizado. Mas e se quisermos um console um pouco mais minimalist, com alguns simbolos diferentes, bem como cores?
 Vamos supor que você queira customizar ainda mais o seu Terminal, e deixá-lo com uma aparência mais clean, e de forma fácil...
 
+#### ConEmu: Uma opção ao Zsh (para windows)
+
+O ConEmu é um terminal que expande as capacidades dos prompts ou consoles tradicionais do windows (cmd, PowerShell, git_bash, etc) é de fácil instalação e customização.
+
+> ![ConEmu Terminal](url: con_emu_settings "ConEmu Terminal")
+
+Ele não é um pré-requisito para a instalação e configuração do Thema final, mas sim, uma sugestão de ferramenta para quem quer expandir suas capacidades de uso dos terminais tradicionais.
 
 #### Oh-My-Posh
 
-Precisamos editar(limpar) nosso terminal(símbolos, caracteres, cores etc) e ainda, preservar a exibição de cada mudança de estado (ou status) do nosso repositório, com alguma lógica de programação.
+Um gerador de "Themas" inspirado no PS-Config **(grave isso, é um detalhe que faz toda diferença)** e no Oh-My-ZSH para ZSH baseado nos sistemas Unix (macOS, OSX e Linux).
 
-**Tema minimalista construído com Oh-My-Posh:**
+Utilizaremos essa ferramenta para customizar nosso terminal(símbolos, caracteres, cores etc) bem como, exibir as informações de cada mudança de estado (ou status), de uma pasta do sistema (ou repositório do git).
 
-> ![Tema minimalista utilizando Oh-My-Posh](https://github.com/asammarco/gostack-bootcamp/blob/master/configuracao-ambiente/power-shell/dracula-theme/sample-images/minimal_theme.png "Tema minimalista utilizando Oh-My-Posh")
+Essa engine, já vem com alguns temas instalados, mas como se trata de uma Engine, podemos utilizá-la para desenvolver e customizar os nossos próprios temas. Dessa forma, nos beneficiamos com uma customização que nos ajude a codar de forma mais efetiva, ao ajustar o nosso ambiente de desenvolvimento conforme nossas necessidades.
 
-Não faremos isso do ZERO. Utilizaremos um outro plugin chamado "Oh-My-Posh". Ele funciona de forma parecida com o plugin "Oh-My-Zsh" do "Zsh" (Terminal disponível somente para sistemas Unix: MacOS, Linux, etc), e através dele podemos instalar muitos temas já prontos, e ainda, desenvolver e customizar os nossos próprios.
+**Tema minimalista OnixSpaceship, construído com Oh-My-Posh:**
 
-Utilizando esse módulo, poderemos construir um tema tão minimalista quanto Oh-My-Zsh Spaceship, ou utilizar temas já prontos. Dessa forma, nos beneficiamos com uma customização que nos ajude a codar de forma mais efetiva, ao ajustar o nosso ambiente de desenvolvimento conforme nossas necessidades.
+> ![Tema minimalista utilizando Oh-My-Posh](https://github.com/asammarco/gostack-bootcamp/blob/master/configuracao-ambiente/power-shell/dracula-theme/sample-images/onix_spaceship_minimal_theme.png "Tema minimalista utilizando Oh-My-Posh")
+
 
 # Drácula-Theme: Install & Config
 
@@ -132,3 +140,188 @@ Agora, basta reiniciar o seu terminal e verificar as alterações.
 
 **Finalizado todos os passos, o seu Terminal do PowerShell deve estar assim:**
 > ![Drácula-Theme PowerShell](https://github.com/asammarco/gostack-bootcamp/blob/master/configuracao-ambiente/power-shell/dracula-theme/sample-images/dracula_theme_power_shell.png "Drácula-Theme PowerShell")
+
+
+# ConEmu
+
+### Install
+
+Instalar o ConEmu é fácil. Você pode utilizar o Chocolatey (administrador de pacote do Windows):
+
+```
+choco install ConEmu
+
+```
+***Atenção: Se você não possui o Chocolatey instalado, veja como fazê-lo em:
+[chocolatey.org](https://chocolatey.org/)***
+
+Com o ConEmu instalado, vamos explicar algumas configurações desse poderoso console.
+
+
+### Configs
+
+Vamos verificar as configurações.
+
+
+#### Escolhendo um terminal padrão
+
+**Clique com botão direito no cabeçalho e vá até `settings`:**
+
+> ![ConEmu Settings](url: con_emu_settings "ConEmu Settings")
+
+Nas configurações, observe que você pode selecionar qual console deseja executar "por trás" do conEmu.
+
+#### Escolhendo cores
+
+Você também pode escolher o padrão de cores do terminal, como sendo o padrão do terminal selecionado, ou ainda, um padrão que você customiza no arquivo conEmu.xml.
+
+> ![Configurações de cores do ConEmu]( "Editando as cores no ConEmu")
+
+Observe que você pode selecionar um arquivo .xml contendo várias customizações do conEmu. > [Veja o modelo do arquivo aqui, no repositório do JanDeDobbeleer](https://gist.github.com/JanDeDobbeleer/71c9f1361a562f337b855b75d7bbfd28)
+
+Essa customização é bem Dark e muito legal!
+
+#### Adicionando abas na janela do terminal
+
+Você pode executar mais de um terminal na mesma janela, utilizando abas:
+
+> ![Abas no conEmu]( "Uma única janela, com 3 terminais abertos")
+
+#### Escolhendo fontes
+
+Lá atrás pedimos para você gravar o fato do Oh-My-Posh ter se baseado no projeto PS-Config e no Oh-My-ZSH. Pois bem, a cadeia de caracteres utilizada pelo PS-Config, foi baseada no Vim-Powerline. 
+
+Por isso, precisaremos utilizar uma fonte que seja compatível com as fontes compiladas para o Vim-Powerline (No Windows).
+
+Como temos poucas fontes "Powerline" compatíveis com Windows, e ainda, que sejam Monotype ou Lucida (tipografias aceitas pelo PowerShell), o conEmu resolve muito fácil esse problema, já que nele, você poderá utilizar qualquer tipo de fonte customizada em seu terminal. veja abaixo:
+
+> ![ConEmu  Fonts]("Fontes no ConEmu")
+
+Dessa forma, a compilação dos símbolos do Oh-My-Posh será compatível com a do Terminal, interpretando a cadeia de caracteres Unicode de cada um, corretamente.
+
+Esse não é um problema difícil de ser solucionado via código, bastando alterarmos a cadeia de caracteres para as fontes Monotype e Lucida do windows. Mas é mais fácil testarmos diferentes fontes Mono "for Powerline" para Windows.
+
+Já que falamos na engine Oh-My-Posh, vamos fazer sua instalação.
+
+
+# Oh-My-Posh
+
+### Install
+
+***Obs: Você já deve estar com o Posh-Git instalado***
+
+**Abra o terminal do PS como administrador, e faça:**
+> `Install-Module oh-my-posh -Scope CurrentUser`
+
+**Confira os temas instalados junto com a ferramenta:**
+> `\Documents\WindowsPowerShell\Modules\oh-my-posh\2.0.342\Themes`
+
+**Veja abaixo:**
+> ![Lista de temas já instalados](https://github.com/asammarco/gostack-bootcamp/blob/master/configuracao-ambiente/power-shell/dracula-theme/sample-images/oh-my-posh-themes.png "Lista de temas já instalados")
+
+Vamos brincar um pouco com essa Engine, e selecionar alguns de seus temas padrão.
+
+### Configs
+
+Para começar a nossa brincadeira, iremos instalar a fonte indicada pelos criadores da Engine a **Meslo LG M Regular for Powerline**. Segue o link do repositório para Download:
+> [Meslo LG M Regular](https://github.com/powerline/fonts/blob/master/Meslo%20Slashed/Meslo%20LG%20M%20Regular%20for%20Powerline.ttf)
+
+Clique com botão direito no arquivo  baixado, e depois em instalar. 
+
+**Abra o conEmu, vá em settings > fontes. Selecione a fonte instalada:**
+
+![Selecionando fonte conEmu]("Selecionando a fonte no conEmu")
+
+Por fim, você pode selecionar quaisquer temas contidos na pasta `\Documents\WindowsPowerShell\Modules\oh-my-posh\2.0.342\Themes`, diretamente via terminal.
+
+**Para isso, utilize o comando Set-Theme:**
+> `Set-Theme Agnoster`
+
+Verifique as mudanças em seu console.
+
+Para manter o thema no seu console, sem ter que selecioná-lo toda vez que abrir o conEmu, edite o seu arquivo de profile:
+> `Documentos > WindowsPowerShell > Microsoft.PowerShell_profile.ps1`
+
+***Veja abaixo:***
+> ![Set Profile Theme]( "Editando o profile para carregar o tema automaticamente.")
+
+Feche e abra novamente conEmu. O tema deve ser carregado automatiamente na inicialização do terminal.
+
+Para mais informações sobre comandos e ainda, como construir seu próprio tema, acesse o repositório do Oh-My-Posh:
+>[Oh-My-Posh](https://github.com/JanDeDobbeleer/oh-my-posh)
+
+Chegou o momento de deixar muita coisa pra traz, e ficarmos somente com o que nos interessa. Vamos para o Minimal Theme, e para melhor parte do OpenSource, conecte tudo, teste, e depois, fique com o que te interessa!
+
+
+# Oh-My-Posh: Onix-Spaceship Theme
+
+Estamos na reta final de nossa configuração.
+
+**Baixe o arquivo Onix-Spaceship.psm1 e cole na pasta do PowerShell:**
+`\Documents\WindowsPowerShell\Modules\oh-my-posh\2.0.342\Themes`
+
+**Veja abaixo:**
+> ![Onix-Spaceship Themes Folder]( "Pasta Themes contendo os Temas do Oh-My-Posh")
+
+Aogra, edite o arquivo de $profile do PowerShell, como feito anteriormente:
+> `Documentos > WindowsPowerShell > Microsoft.PowerShell_profile.ps1`
+
+Vamos inserir a seguinte informação:
+
+```
+# Dark Thema
+Set-PSReadlineOption -Color @{
+    "Command" = [ConsoleColor]::Green
+    "Parameter" = [ConsoleColor]::Gray
+    "Operator" = [ConsoleColor]::Magenta
+    "Variable" = [ConsoleColor]::White
+    "String" = [ConsoleColor]::Yellow
+    "Number" = [ConsoleColor]::Blue
+    "Type" = [ConsoleColor]::Cyan
+    "Comment" = [ConsoleColor]::DarkCyan
+}
+
+# Onix-Spaceship Prompt Configuration
+Import-Module posh-git
+Import-Module Oh-My-Posh
+Set-Theme Onix-Spaceship
+clear-host
+```
+
+Veja abaixo:
+
+> ![Onix-Spaceship Profile Config]( "Configuração do Thema no Profile do PowerShell")
+
+Dessa forma, iremos setar nosso arquivo de profile para iniciar o powershel com o nosso tema padrão.
+
+
+
+
+
+
+
+
+
+### Referências
+
+>[Dracula-Theme for PowerShell](https://draculatheme.com/powershell/)
+>
+>[Will Fuqua: dracula-prompt-configuration.ps1](https://github.com/dracula/powershell/blob/master/theme/dracula-prompt-configuration.ps1)
+>
+>[Dracula-Theme Git-hub](https://github.com/dracula/dracula-theme)
+>
+>[Posh-Git: A PowerShell environment for Git](https://www.jishuwen.com/d/2dMU)
+>
+>[Oh-My-Posh](https://github.com/JanDeDobbeleer/oh-my-posh)
+>
+>[Fira Code Google](https://fonts.google.com/specimen/Fira+Code)
+>
+>[Fira Code Nerd fonts](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/FiraCode)
+>
+>[PowerShell Scripting Microsoft Reference Guide](https://docs.microsoft.com/pt-br/powershell/scripting/overview?view=powershell-7)
+>
+>[Unicode Char Table](https://www.fileformat.info/info/unicode/category/Sm/list.htm)
+>
+>[Write-Host](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/write-host?view=powershell-7)
+>
+>[Customize Your PowerShell Prompt with Nerd Fonts & ANSI Escape Sequences](https://www.youtube.com/watch?v=DhzR7mbFE9I)
