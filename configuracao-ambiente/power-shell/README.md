@@ -165,9 +165,9 @@ Vamos verificar as configurações.
 
 #### Escolhendo um terminal padrão
 
-**Clique com botão direito no cabeçalho e vá até `settings`:**
+**Clique com botão direito no cabeçalho e vá até settings:**
 
-> ![ConEmu Settings](url: con_emu_settings "ConEmu Settings")
+> ![ConEmu Settings](https://github.com/asammarco/gostack-bootcamp/blob/master/configuracao-ambiente/power-shell/dracula-theme/sample-images/con_emu_settings.png "ConEmu Settings")
 
 Nas configurações, observe que você pode selecionar qual console deseja executar "por trás" do conEmu.
 
@@ -175,7 +175,7 @@ Nas configurações, observe que você pode selecionar qual console deseja execu
 
 Você também pode escolher o padrão de cores do terminal, como sendo o padrão do terminal selecionado, ou ainda, um padrão que você customiza no arquivo conEmu.xml.
 
-> ![Configurações de cores do ConEmu]( "Editando as cores no ConEmu")
+> ![Configurações de cores do ConEmu](https://github.com/asammarco/gostack-bootcamp/blob/master/configuracao-ambiente/power-shell/dracula-theme/sample-images/con_emu_color_settings.png "Editando as cores no ConEmu")
 
 Observe que você pode selecionar um arquivo .xml contendo várias customizações do conEmu. > [Veja o modelo do arquivo aqui, no repositório do JanDeDobbeleer](https://gist.github.com/JanDeDobbeleer/71c9f1361a562f337b855b75d7bbfd28)
 
@@ -185,7 +185,7 @@ Essa customização é bem Dark e muito legal!
 
 Você pode executar mais de um terminal na mesma janela, utilizando abas:
 
-> ![Abas no conEmu]( "Uma única janela, com 3 terminais abertos")
+> ![Abas no conEmu](https://github.com/asammarco/gostack-bootcamp/blob/master/configuracao-ambiente/power-shell/dracula-theme/sample-images/con_emu_abas.png "Uma única janela, com 3 terminais abertos")
 
 #### Escolhendo fontes
 
@@ -195,7 +195,7 @@ Por isso, precisaremos utilizar uma fonte que seja compatível com as fontes com
 
 Como temos poucas fontes "Powerline" compatíveis com Windows, e ainda, que sejam Monotype ou Lucida (tipografias aceitas pelo PowerShell), o conEmu resolve muito fácil esse problema, já que nele, você poderá utilizar qualquer tipo de fonte customizada em seu terminal. veja abaixo:
 
-> ![ConEmu  Fonts]("Fontes no ConEmu")
+> ![ConEmu Fontes](https://github.com/asammarco/gostack-bootcamp/blob/master/configuracao-ambiente/power-shell/dracula-theme/sample-images/con_emu_fonts.png "Fontes no ConEmu")
 
 Dessa forma, a compilação dos símbolos do Oh-My-Posh será compatível com a do Terminal, interpretando a cadeia de caracteres Unicode de cada um, corretamente.
 
@@ -230,7 +230,7 @@ Clique com botão direito no arquivo  baixado, e depois em instalar.
 
 **Abra o conEmu, vá em settings > fontes. Selecione a fonte instalada:**
 
-![Selecionando fonte conEmu]("Selecionando a fonte no conEmu")
+![Selecionando fonte conEmu](https://github.com/asammarco/gostack-bootcamp/blob/master/configuracao-ambiente/power-shell/dracula-theme/sample-images/con_emu_sel_fonts.png "Selecionando a fonte no conEmu")
 
 Por fim, você pode selecionar quaisquer temas contidos na pasta `\Documents\WindowsPowerShell\Modules\oh-my-posh\2.0.342\Themes`, diretamente via terminal.
 
@@ -243,9 +243,9 @@ Para manter o thema no seu console, sem ter que selecioná-lo toda vez que abrir
 > `Documentos > WindowsPowerShell > Microsoft.PowerShell_profile.ps1`
 
 ***Veja abaixo:***
-> ![Set Profile Theme]( "Editando o profile para carregar o tema automaticamente.")
+> ![Set Profile Theme](https://github.com/asammarco/gostack-bootcamp/blob/master/configuracao-ambiente/power-shell/dracula-theme/sample-images/Oh_My_Posh_Set_Profile_Theme.png "Editando o profile para carregar o tema automaticamente.")
 
-Feche e abra novamente conEmu. O tema deve ser carregado automatiamente na inicialização do terminal.
+Feche e abra novamente o conEmu. O tema deve ser carregado automaticamente na inicialização do terminal.
 
 Para mais informações sobre comandos e ainda, como construir seu próprio tema, acesse o repositório do Oh-My-Posh:
 >[Oh-My-Posh](https://github.com/JanDeDobbeleer/oh-my-posh)
