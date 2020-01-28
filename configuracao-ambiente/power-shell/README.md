@@ -256,7 +256,7 @@ Feche e abra novamente o conEmu. O tema deve ser carregado automaticamente na in
 Para mais informações sobre comandos e ainda, como construir seu próprio tema, acesse o repositório do Oh-My-Posh:
 >[Oh-My-Posh](https://github.com/JanDeDobbeleer/oh-my-posh)
 
-Chegou o momento de deixar muita coisa pra traz, e ficarmos somente com o que nos interessa. Vamos para o Minimal Theme, e para melhor parte do OpenSource, conecte tudo, teste, e depois, fique com o que te interessa!
+Chegou o momento de deixar muita coisa pra trás, e ficar somente com o que interessa. Essa é a melhor parte do OpenSource, conecte tudo, faça alguns hacks e compartilhe!
 
 
 # Oh-My-Posh: Onix-Spaceship Theme
@@ -337,13 +337,13 @@ Eles devem estar da seguinte forma:
 
 >[Dracula-Theme for PowerShell](https://draculatheme.com/powershell/)
 >
->[Will Fuqua: dracula-prompt-configuration.ps1](https://github.com/dracula/powershell/blob/master/theme/dracula-prompt-configuration.ps1)
->
 >[Dracula-Theme Git-hub](https://github.com/dracula/dracula-theme)
 >
 >[Posh-Git: A PowerShell environment for Git](https://www.jishuwen.com/d/2dMU)
 >
 >[Oh-My-Posh](https://github.com/JanDeDobbeleer/oh-my-posh)
+>
+>[Will Fuqua: dracula-prompt-configuration.ps1](https://github.com/dracula/powershell/blob/master/theme/dracula-prompt-configuration.ps1)
 >
 >[Fira Code Google](https://fonts.google.com/specimen/Fira+Code)
 >
@@ -352,7 +352,5 @@ Eles devem estar da seguinte forma:
 >[PowerShell Scripting Microsoft Reference Guide](https://docs.microsoft.com/pt-br/powershell/scripting/overview?view=powershell-7)
 >
 >[Unicode Char Table](https://www.fileformat.info/info/unicode/category/Sm/list.htm)
->
->[Write-Host](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/write-host?view=powershell-7)
 >
 >[Customize Your PowerShell Prompt with Nerd Fonts & ANSI Escape Sequences](https://www.youtube.com/watch?v=DhzR7mbFE9I)
