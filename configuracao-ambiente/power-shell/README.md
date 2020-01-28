@@ -300,7 +300,11 @@ Dessa forma, o powershel irá iniciar com o nosso tema padrão.
 
 Precisamos de mais um passo para rodar nosso tema, caso tenha gostado do ConEmu e irá utiliza-lo daqui para frente. Ele possui seu próprio esquema de cores, sendo assim, vamos alterar algumas delas para deixá-lo com um Dark bem interessante:
 
+> ![ConEmu Onix-Spaceship colors schema](https://github.com/asammarco/gostack-bootcamp/blob/master/configuracao-ambiente/power-shell/dracula-theme/sample-images/con_emu_onix_spaceship_color_settings.png "Esquema de cores do conEmu para Onix-Spaceship")
 
+#### Fonte
+
+A fonte que estou utilizando com o Tema é a **Fira Code Retina**.
 
 
 
