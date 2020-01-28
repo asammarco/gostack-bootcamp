@@ -46,16 +46,20 @@ Essa engine, já vem com alguns temas instalados, mas como se trata de uma Engin
 
 **Vamos instalar e utilizar a fonte  Fira Code:**
 
-[Clique aqui para acessar o repositório da fonte](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/FiraCode)
+> [Clique aqui para acessar o repositório da fonte no github](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/FiraCode)
 
-Ao acessar o repositório, vá até "Solution > Download V2". Faça download e a instale. Para isso, basta descompactar o arquivo baixado, ir até a pasta "ttf", e clicar duas vezes sobre as fontes, uma a uma. O windows se encarrega da instalação.
+ou ainda,
+
+> [Clique aqui para fazer download no google fonts](https://fonts.google.com/specimen/Fira+Code)
+
+No github, acesse o repositório, vá até "Solution > Download V2". Faça download e a instale. Para isso, basta descompactar o arquivo baixado, ir até a pasta "ttf", e clicar com botão `direito > instalar`.
 
 **Veja abaixo**
 
 > ![Fonte Fira Code TTF](https://github.com/asammarco/gostack-bootcamp/blob/master/configuracao-ambiente/power-shell/dracula-theme/sample-images/Fira%20Code%20Retina.png "Dê dois clicks sobre a fonte para instalar")
 
-**Clique com botão na borda do cabeçalho do terminal do PowerShell, em propriedades, escolha  a fonte instalada:**
-> `PowerShell > propriedades > Fonte > "Fira Code Retina"`.
+**Clique com botão na borda do cabeçalho do terminal do PowerShell, em propriedades, escolha a fonte instalada:**
+> `PowerShell > propriedades > Fonte > Fira Code Retina`.
 
 Com a fonte já instalada e configurada em nosso terminal, podemos seguir adiante.
 
