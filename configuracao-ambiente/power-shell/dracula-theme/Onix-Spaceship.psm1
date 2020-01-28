@@ -1,5 +1,3 @@
-#requires -Version 2 -Modules posh-git
-
 function Write-Theme {
 
     param(
@@ -11,9 +9,7 @@ function Write-Theme {
 
     $lastColor = $sl.Colors.PromptBackgroundColor
     $startColorSymbol = "#50fa7b"
-    
-    $prompt = Write-Prompt -Object $sl.PromptSymbols.StartSymbol -ForegroundColor $startColorSymbol -BackgroundColor $sl.Colors.SessionInfoBackgroundColor    
-        
+    $prompt = Write-Prompt -Object $sl.PromptSymbols.StartSymbol -ForegroundColor $startColorSymbol -BackgroundColor $sl.Colors.SessionInfoBackgroundColor            
     $prompt += Write-Prompt ' '
 
     # Writes the drive portion
@@ -28,18 +24,22 @@ function Write-Theme {
     #    Os simbolos ja nos mostram as alterações            
     #    Determina as cores                            
             if(($status.AheadBy -ne '0') -or $status.HasIndex -or $status.HasUntracked -or $status.HasWorking){                
-                $prompt += Write-Prompt -Object " $($themeInfo.VcInfo) " -BackgroundColor $lastColor -ForegroundColor $sl.Colors.GitForegroundColor     
+                $prompt += Write-Prompt -Object " $($themeInfo.VcInfo)" -BackgroundColor $lastColor -ForegroundColor $sl.Colors.GitForegroundColor     
             }else{
                 $foreground = "#50fa7b"
                 $background = "#282a36"                
-                $prompt += Write-Prompt -Object " $($themeInfo.VcInfo) " -BackgroundColor $background -ForegroundColor $foreground
+                $prompt += Write-Prompt -Object " $($themeInfo.VcInfo)" -BackgroundColor $background -ForegroundColor $foreground
             }                            
     }
 
     if ($with) {    
-        $prompt += Write-Prompt -Object " $($with.ToUpper()) " -BackgroundColor $sl.Colors.WithBackgroundColor -ForegroundColor $sl.Colors.WithForegroundColor
+        $prompt += Write-Prompt -Object " $($with.ToUpper())" -BackgroundColor $sl.Colors.WithBackgroundColor -ForegroundColor $sl.Colors.WithForegroundColor
         $lastColor = $sl.Colors.WithBackgroundColor
     }        
+    $prompt_arrow = [char]::ConvertFromUtf32(0x203A)
+    $prompt_arrow_color_foreground = [ConsoleColor]::Magenta
+    $prompt_arrow_color_background = "#282a36"
+    $prompt += Write-Prompt -Object " $($prompt_arrow) " -BackgroundColor $prompt_arrow_color_background -ForegroundColor $prompt_arrow_color_foreground
     $prompt
 }
 
@@ -50,8 +50,7 @@ $sl.Colors.PromptForegroundColor = [ConsoleColor]::Cyan
 $sl.Colors.PromptSymbolColor = [ConsoleColor]::White
 $sl.Colors.PromptHighlightColor = [ConsoleColor]::DarkBlue
 $sl.Colors.WithForegroundColor = [ConsoleColor]::White
-$sl.Colors.VirtualEnvForegroundColor = [System.ConsoleColor]::White
-
+$sl.Colors.VirtualEnvForegroundColor = [ConsoleColor]::White
 
 #Onix Spaceship
 $sl.PromptSymbols.StartSymbol = "$([char]0x2192)"
