@@ -261,7 +261,7 @@ Estamos na reta final de nossa configuração.
 `\Documents\WindowsPowerShell\Modules\oh-my-posh\2.0.342\Themes`
 
 **Veja abaixo:**
-> ![Onix-Spaceship Themes Folder]( "Pasta Themes contendo os Temas do Oh-My-Posh")
+> ![Onix-Spaceship Themes Folder](https://github.com/asammarco/gostack-bootcamp/blob/master/configuracao-ambiente/power-shell/dracula-theme/sample-images/Onix_Spaceship_Themes_Folder.png "Pasta Themes contendo os Temas do Oh-My-Posh")
 
 Aogra, edite o arquivo de $profile do PowerShell, como feito anteriormente:
 > `Documentos > WindowsPowerShell > Microsoft.PowerShell_profile.ps1`
@@ -269,19 +269,21 @@ Aogra, edite o arquivo de $profile do PowerShell, como feito anteriormente:
 Vamos inserir a seguinte informação:
 
 ```
-# Dark Thema
+# requires -Version 2 -Modules posh-git
+# Dark Colors: Onix-Spaceship
 Set-PSReadlineOption -Color @{
-    "Command" = [ConsoleColor]::Green
-    "Parameter" = [ConsoleColor]::Gray
-    "Operator" = [ConsoleColor]::Magenta
-    "Variable" = [ConsoleColor]::White
-    "String" = [ConsoleColor]::Yellow
+    "Command" = "#50fa7b"
+    "Parameter" = "#ff79c6"
+    "Operator" = "#bd93f9"
+    "Variable" = "#f8f8f2"
+    "String" =  "#ffb86c"
     "Number" = [ConsoleColor]::Blue
-    "Type" = [ConsoleColor]::Cyan
-    "Comment" = [ConsoleColor]::DarkCyan
+    "Type" = "#8be9fd"
+    "Comment" = "#6272a4"
+    "Selection" = "#44475a"    
 }
 
-# Onix-Spaceship Prompt Configuration
+# Import Onix-Spaceship Thema
 Import-Module posh-git
 Import-Module Oh-My-Posh
 Set-Theme Onix-Spaceship
@@ -290,9 +292,14 @@ clear-host
 
 Veja abaixo:
 
-> ![Onix-Spaceship Profile Config]( "Configuração do Thema no Profile do PowerShell")
+> ![Onix-Spaceship Profile Config](https://github.com/asammarco/gostack-bootcamp/blob/master/configuracao-ambiente/power-shell/dracula-theme/sample-images/onix_spaceship_profile.png "Configuração do Thema no Arquivo de Profile do PowerShell")
 
-Dessa forma, iremos setar nosso arquivo de profile para iniciar o powershel com o nosso tema padrão.
+Dessa forma, o powershel irá iniciar com o nosso tema padrão.
+
+#### Configurando o Onix-Spaceship no ConEmu:
+
+Precisamos de mais um passo para rodar nosso tema, caso tenha gostado do ConEmu e irá utiliza-lo daqui para frente. Ele possui seu próprio esquema de cores, sendo assim, vamos alterar algumas delas para deixá-lo com um Dark bem interessante:
+
 
 
 
