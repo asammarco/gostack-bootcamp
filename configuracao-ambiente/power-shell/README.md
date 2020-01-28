@@ -307,6 +307,15 @@ Precisamos de mais um passo para rodar nosso tema, caso tenha gostado do ConEmu 
 A fonte que estou utilizando com o Tema é a **Fira Code Retina**.
 
 
+#### Testando o Thema
+
+Feche os terminais e reabra novamente.
+
+Eles devem estar da seguinte forma:
+
+#### Power Shell
+
+> ![Onix Spaceship no Power Shell]( "Onix Spaceship no Power Shell")
 
 
 
