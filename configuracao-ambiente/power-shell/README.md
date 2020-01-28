@@ -315,11 +315,16 @@ Eles devem estar da seguinte forma:
 
 #### Power Shell
 
-> ![Onix Spaceship no Power Shell]( "Onix Spaceship no Power Shell")
+> ![Onix Spaceship no Power Shell](https://github.com/asammarco/gostack-bootcamp/blob/master/configuracao-ambiente/power-shell/dracula-theme/sample-images/power_shel_onix_spaceship.png "Onix Spaceship no Power Shell")
 
 
+#### ConEmu
 
+> ![Onix Spaceship no Power Shell](https://github.com/asammarco/gostack-bootcamp/blob/master/configuracao-ambiente/power-shell/dracula-theme/sample-images/conEmu_onix_spaceship.png "Onix Spaceship no ConEmu")
 
+#### VS Code
+
+> ![Onix Spaceship no VS Code](https://github.com/asammarco/gostack-bootcamp/blob/master/configuracao-ambiente/power-shell/dracula-theme/sample-images/vscode_onix_spaceship.png "Onix Spaceship no VS Code")
 
 
 ### Referências
