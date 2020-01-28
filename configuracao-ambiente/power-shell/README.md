@@ -21,7 +21,7 @@ Vamos supor que você queira customizar ainda mais o seu Terminal, e deixá-lo c
 
 O ConEmu é um terminal que expande as capacidades dos prompts ou consoles tradicionais do windows (cmd, PowerShell, git_bash, etc) é de fácil instalação e customização.
 
-> ![ConEmu Terminal](url: con_emu_settings "ConEmu Terminal")
+> ![ConEmu Terminal](https://github.com/asammarco/gostack-bootcamp/blob/master/configuracao-ambiente/power-shell/dracula-theme/sample-images/conEmu.png "ConEmu Terminal")
 
 Ele não é um pré-requisito para a instalação e configuração do Thema final, mas sim, uma sugestão de ferramenta para quem quer expandir suas capacidades de uso dos terminais tradicionais.
 
@@ -35,7 +35,7 @@ Essa engine, já vem com alguns temas instalados, mas como se trata de uma Engin
 
 **Tema minimalista OnixSpaceship, construído com Oh-My-Posh:**
 
-> ![Tema minimalista utilizando Oh-My-Posh](https://github.com/asammarco/gostack-bootcamp/blob/master/configuracao-ambiente/power-shell/dracula-theme/sample-images/onix_spaceship_minimal_theme.png "Tema minimalista utilizando Oh-My-Posh")
+> ![Tema minimalista utilizando Oh-My-Posh](https://github.com/asammarco/gostack-bootcamp/blob/master/configuracao-ambiente/power-shell/dracula-theme/sample-images/power_shel_onix_spaceship.png "Tema minimalista utilizando Oh-My-Posh")
 
 
 # Drácula-Theme: Install & Config
