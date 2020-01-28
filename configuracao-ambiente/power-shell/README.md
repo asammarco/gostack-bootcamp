@@ -197,13 +197,15 @@ Lá atrás pedimos para você gravar o fato do Oh-My-Posh ter se baseado no proj
 
 Por isso, precisaremos utilizar uma fonte que seja compatível com as fontes compiladas para o Vim-Powerline (No Windows).
 
-Como temos poucas fontes "Powerline" compatíveis com Windows, e ainda, que sejam Monotype ou Lucida (tipografias aceitas pelo PowerShell), o conEmu resolve muito fácil esse problema, já que nele, você poderá utilizar qualquer tipo de fonte customizada em seu terminal. veja abaixo:
+Como temos poucas fontes "Powerline" compatíveis com Windows, e ainda, que sejam Monotype ou Lucida (tipografias aceitas pelo PowerShell), o conEmu resolve muito fácil esse problema, já que nele, você poderá utilizar qualquer tipo de fonte customizada em seu terminal, como vimos anteriormente:
 
 > ![ConEmu Fontes](https://github.com/asammarco/gostack-bootcamp/blob/master/configuracao-ambiente/power-shell/dracula-theme/sample-images/con_emu_fonts.png "Fontes no ConEmu")
 
-Dessa forma, a compilação dos símbolos do Oh-My-Posh será compatível com a do Terminal, interpretando a cadeia de caracteres Unicode de cada um, corretamente.
+Dessa forma, a compilação dos símbolos do Oh-My-Posh será compatível com a do Terminal interpretando corretamente o código Unicode de cada símbolo.
 
-Esse não é um problema difícil de ser solucionado via código, bastando alterarmos a cadeia de caracteres para as fontes Monotype e Lucida do windows. Mas é mais fácil testarmos diferentes fontes Mono "for Powerline" para Windows.
+Esse não é um problema difícil de ser solucionado via código, bastando alterarmos os símbolos utilizados pelo Oh-My-Posh, para os padrões aceito pelas fontes Monotype e Lucida do windows. 
+
+Caso tenha problemas, o caminho mais fácil é testar diferentes fontes Mono "for Powerline" para Windows. Duas fontes deram muito certo para mim: Meslo LG M Regular for Powerline (padrão da ferramenta) e ainda, DejaVu Sans Mono For Powerline.
 
 Já que falamos na engine Oh-My-Posh, vamos fazer sua instalação.
 
