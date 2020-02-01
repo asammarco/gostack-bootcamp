@@ -1,4 +1,4 @@
-// Importano o módulo express
+// Importando o módulo express
 const express = require('express');
 
 // Importando nossas rotas
