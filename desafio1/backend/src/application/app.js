@@ -9,6 +9,7 @@ class App{
     // Criando um server para nossa aplicação
     this.server = express();
 
+    // Dessa forma middlawares sempre tem que vir antes que routes
     this.middlewares();
     this.routes();
   }
