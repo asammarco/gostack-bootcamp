@@ -9,11 +9,8 @@ module.exports = {
     return next();
   },
   checkProjectExist(request,response,next){
-    const checkProjects = projectController.projects.some( 
-      item => item.id == request.params.id
-    );
-
-    if(!checkProjects){            
+    const check =  projectController.projectExist(request.params.id);
+    if(!check){            
       return response.status(400).json({error: "Project doesn't exist"});
     }
     return next();

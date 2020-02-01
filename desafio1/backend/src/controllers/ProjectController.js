@@ -1,7 +1,6 @@
 var projects = require('../models/Project');
 
-module.exports = {
-  projects,
+module.exports = {  
   index(request,response){
     return response.json(projects);
   },
@@ -28,5 +27,10 @@ module.exports = {
     const project = projects.filter(item => item.id == id);
     project.map(item => item.tasks.push(title));
     response.send(project);
+  },
+  projectExist(id){    
+    return projects.some( 
+      item => item.id ==id
+    );
   }
 }
