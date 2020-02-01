@@ -4,7 +4,7 @@ const mwe = require('../middlewares/index');
 
 const routes = Router();
 
-routes.use(mwe.logRequisisoes);
+routes.use(mwe.requestLog);
 
 routes.post('/projects', mwe.checkProjectId, ProjectController.store);
 routes.get('/projects', ProjectController.index);

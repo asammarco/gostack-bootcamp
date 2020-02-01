@@ -15,7 +15,7 @@ module.exports = {
     }
     return next();
   },  
-  logRequisisoes(request,response, next){
+  requestLog(request,response, next){
     console.log('Total de requisições:', countRequests+=1);
     return next();
   }
