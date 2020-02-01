@@ -1,2 +1,8 @@
+#.gitignore
+.gitignore
+
 #node_modules
 node_modules/
+
+#.vscode debug folder
+.vscode/
