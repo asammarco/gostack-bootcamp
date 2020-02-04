@@ -1,8 +1,16 @@
-const { Router } = require('express');
-const routes = Router();
+import { Router } from 'express';
+import User from '../app/models/User';
 
-routes.get('/', (req,res) => {
-  res.send('Hello World!');
-})
+const routes = new Router();
 
-module.exports = routes;
+routes.get('/', async (req, res) => {
+  const user = await User.create({
+    name: 'Diego Fernandes',
+    email: 'diego@mmm',
+    password_hash: '123456',
+  });
+
+  res.send(user);
+});
+
+export default routes;

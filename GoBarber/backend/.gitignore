@@ -1,2 +1,14 @@
 #node_modules
 node_modules/
+
+#debug path
+.vscode/
+
+#gitignore
+.gitignore
+
+#prettierrc
+.prettierrc
+
+#config/database.js
+config/
