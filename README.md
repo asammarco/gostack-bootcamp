@@ -7,9 +7,8 @@ Repositório criado para concentrar todo conteúdo referente a GoStack Bootcamp.
 
 Repositórios | Descrição
 ------------ | -------------
-configuração-ambiente/ 
-| 
-Contém diversas configurações feitas durante às aulas. Deverá conter configurações das Tools utilizadas na Stack.
+configuração-ambiente/ | Contém diversas configurações feitas durante às aulas. Deverá conter configurações das Tools utilizadas na Stack.
+
 
 
 
