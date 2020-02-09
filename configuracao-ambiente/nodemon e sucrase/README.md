@@ -60,7 +60,8 @@ Nesse arquivo, iremos inserir a seguinte configuração:
     {
       "type": "node",
       "request": "attach",
-      "name": "Launch Program",      
+      "name": "Launch Program",    
+      "restart": true,
       "protocol":"inspector"
     }
   ]
