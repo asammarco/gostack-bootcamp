@@ -103,6 +103,125 @@ Para refazer o mapeamento das dependência do nosso projeto.
 
 Um arquivo, `.eslintrc.js` será criado na raiz da nossa aplicação.
 
-**Antes de configurarmos nosso Linting de código, neste arquivo, iremos instalar o ESLint Plugin no VS Code.**
+**ATENÇÃO: para continuar instale a extensão ESLint no VS-CODE.**
+
+Abra as preferências do VS-CODE, para isso pressione Ctrl+Shift+P > Open Settings (JSON), e adicione:
+
+```
+[...]
+
+"[javascript]":{
+        "editor.codeActionsOnSave":{
+            "source.fixAll.eslint": true,
+        }
+    },
+
+    "[javascriptreact]":{
+        "editor.codeActionsOnSave":{
+            "source.fixAll.eslint": true,
+        }
+    },
+
+[...]
+```
+Essas regras são para corrigir o código para o padrão do Airbnb (selecionado anteriormente), automaticamente, sempre que for salvo.
+
+Agora sim, iremos configurar o arquivo `.eslintrc.js`. Adicione as seguinte linhas:
+
+```
+[...]
+
+rules: {
+    "prettier/prettier":"error",
+    "class-methods-use-this": "off",
+    "no-param-reassign": "off",
+    "camelcase": "off",
+    "no-unused-vars":["error",{"argsIgnorePattern":"next"}],
+  },
+
+[...]
+```
+
+Configuradas nossas regras de formatação do ESLint, iremos instalar o prettier.
 
 
+# Prettier
+
+O Prettier adiciona ainda mais formatação ao nosso código.
+
+## Instalação
+
+O comando abaixo instala o Prettier na nossa aplicação:
+
+```
+yarn add prettier eslint-config-prettier eslint-plugin-prettier -D
+```
+
+## Configuração
+
+Novamente, no arquivo `.eslintrc.js`, iremos adicionar as seguintes informações:
+
+```
+[...]
+
+extends: [
+    'airbnb-base','prettier'
+  ],
+plugins:['prettier']
+  ,
+
+[...]
+
+rules: {
+    "prettier/prettier":"error",
+
+[...]
+
+```
+
+Como o padrão do Airbnb e do prettier podem conter regras duplicadas, podemos criar um arquivo que irá definir, qual regra nosso código deverá obedecer.
+Crie o arquivo `.prettierrc` na raiz do nosso projeto, com as seguintes informações:
+
+```
+{
+  "singleQuote":true,
+  "trailingComma": "es5"
+}
+```
+
+Por fim, para  corrigir todos os arquivos .JS do nosso projeto, conforme as configurações realizadas, gere o comando abaixo:
+
+```
+yarn eslint --fix src --ext .js
+```
+
+Vamos para a instalação e configuração o EditorConfig
+
+# EditorConfig
+
+O EditorConfig padroniza o código que pode ser escrito em diferentes IDE: atom, sublime, etc.
+
+## Instalação
+
+Adicione a extensão do EditorConfig ao VS-CODE.
+
+## Configuração
+
+Após adicionada a extensão do EditorConfig, clicar com o botão direito na raiz do nosso projeto e escolher a opção:
+
+```
+Generate .editorconfig
+```
+
+No arquivo `.editorconfig` gerado, altere os últimos dois parâmetros para `true`. Dessa forma, o conteúdo do arquivo deve ficar da seguinte forma:
+
+```
+root = true
+
+[*]
+indent_style = space
+indent_size = 2
+charset = utf-8
+trim_trailing_whitespace = true
+insert_final_newline = true
+```
