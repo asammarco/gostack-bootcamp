@@ -1,6 +1,6 @@
 # Sequelize ORM
 
-O sequelize é um ORM (Object-Relational Mapping), uma aplicação que abstrai a manipulação de dados de nossa aplicação. Atualmente, disponível para Postgres, MySQL, MariaDB, SQLite and Microsoft SQL Server. 
+O sequelize é um ORM (Object-Relational Mapping), uma aplicação que abstrai a manipulação de dados de nossa aplicação. Atualmente, disponível para PostgreSQL, MySQL, MariaDB, SQLite and Microsoft SQL Server. 
 
 Entre as diversas funcionalidades do Sequelize, estão:
 
