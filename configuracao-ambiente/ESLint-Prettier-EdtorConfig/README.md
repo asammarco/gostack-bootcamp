@@ -197,7 +197,7 @@ yarn eslint --fix src --ext .js
 
 Vamos para a instalação e configuração o EditorConfig
 
-# <img src="https://editorconfig.gallerycdn.vsassets.io/extensions/editorconfig/editorconfig/0.14.4/1576704562902/Microsoft.VisualStudio.Services.Icons.Default" width="34" height="34" /> EditorConfig
+# <img src="https://editorconfig.gallerycdn.vsassets.io/extensions/editorconfig/editorconfig/0.14.4/1576704562902/Microsoft.VisualStudio.Services.Icons.Default" width="45" height="45" /> EditorConfig
 
 O EditorConfig padroniza o código que pode ser escrito em diferentes IDE: atom, sublime, etc.
 
