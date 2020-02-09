@@ -103,6 +103,6 @@ Para refazer o mapeamento das dependência do nosso projeto.
 
 Um arquivo, `.eslintrc.js` será criado na raiz da nossa aplicação.
 
-*** Antes de configurarmos nosso Linting de código, neste arquivo, iremos instalar o ESLint Plugin no VS Code. ***
+**Antes de configurarmos nosso Linting de código, neste arquivo, iremos instalar o ESLint Plugin no VS Code.**
 
 
