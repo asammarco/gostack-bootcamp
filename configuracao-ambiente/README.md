@@ -1,7 +1,8 @@
 # Configurações do ambiente de desenvolvimento.
 
-Verifique o arquivo `setttings.json` para conferir as configurações feitas no 
-VS Code, antes de iniciarmos o Curso.
+Repositório criado para concentrar todo conteúdo referente a configurações de nossa IDE, Plugins e Aplicação:
 
-Para editar as preferências do seu VS Code, na sua IDE, digite 
-`Ctrl + Shift + P` e selecione `Preferences: Open Settings (JSON)`.
+Repositórios | Descrição
+------------ | -------------
+vs-code/  | Configurações da IDE do VS-CODE.
+power-shell/ | Configurações de customização do Windows PowerShell.

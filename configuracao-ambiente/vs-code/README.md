@@ -1,4 +1,4 @@
-# Configurações do VS Code.
+# Configurações do VS-Code.
 
 Para editar as preferência do seu VS COde, digite:
 `Ctrl + Shift + P` e selecione `Preferences: Open Settings (JSON)`.
