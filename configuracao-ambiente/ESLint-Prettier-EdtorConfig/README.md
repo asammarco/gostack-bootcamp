@@ -145,7 +145,7 @@ rules: {
 Configuradas nossas regras de formatação do ESLint, iremos instalar o prettier.
 
 
-# Prettier
+# <img src="https://prettier.io/icon.png" width="34" height="34/>Prettier
 
 O Prettier adiciona ainda mais formatação ao nosso código.
 
