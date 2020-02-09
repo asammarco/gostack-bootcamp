@@ -1,4 +1,4 @@
-# <img src="https://d33wubrfki0l68.cloudfront.net/204482ca413433c80cd14fe369e2181dd97a2a40/092e2/assets/img/logo.svg" width="50" height="50"/> ESLint
+# <img src="https://d33wubrfki0l68.cloudfront.net/204482ca413433c80cd14fe369e2181dd97a2a40/092e2/assets/img/logo.svg" width="34" height="34">ESLint</img>
 
 ## Instalação
 
