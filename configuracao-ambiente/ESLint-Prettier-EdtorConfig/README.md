@@ -103,7 +103,7 @@ Para refazer o mapeamento das dependência do nosso projeto.
 
 Um arquivo, `.eslintrc.js` será criado na raiz da nossa aplicação.
 
-**ATENÇÃO: para continuar instale a extensão ESLint no VS-CODE.**
+**<img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fmarketplace.visualstudio.com%2Fitems%3FitemName%3Ddbaeumer.vscode-eslint&psig=AOvVaw08D0m3xO9MbgyISEU89wSe&ust=1581378313316000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCNDY0LfTxecCFQAAAAAdAAAAABAD" width="34" height="34"/>ATENÇÃO: para continuar instale a extensão ESLint no VS-CODE.**
 
 Abra as preferências do VS-CODE, para isso pressione Ctrl+Shift+P > Open Settings (JSON), e adicione:
 
