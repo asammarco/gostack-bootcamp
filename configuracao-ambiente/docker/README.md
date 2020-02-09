@@ -25,3 +25,4 @@ O primeiro comando, cria um container para armazenar os dados do PostgreSQL, ou 
 
 
 
+
