@@ -1,20 +1,15 @@
 # GoStack Bootcamp Repository.
 
-Repositório criado para a GoStack Bootcamp.
-Esse repositório contém todo conteúdo do curso: 
+Repositório criado para concentrar todo conteúdo referente a GoStack Bootcamp.
 
-- Configurações
-- Códigos das aulas
-- Dicas e Hacks
-- Plugins/Tools utilizadas
+**Conteúdo:**
 
-**Repositórios:**
 
->**configuração-ambiente**
->
->Contém diversas configurações feitas durante às aulas.
->Deverá conter configurações das Tools utilizadas na Stack.
-
+Repositórios | Descrição
+------------ | -------------
+configuração-ambiente/ 
+| 
+Contém diversas configurações feitas durante às aulas. Deverá conter configurações das Tools utilizadas na Stack.
 
 
 
