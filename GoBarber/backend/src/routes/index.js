@@ -1,16 +1,13 @@
 import { Router } from 'express';
-import User from '../app/models/User';
+import UserController from '../app/controllers/UserController';
+import SessionController from '../app/controllers/SessionController';
+import authMiddleware from '../app/middlewares/auth';
 
 const routes = new Router();
 
-routes.get('/', async (req, res) => {
-  const user = await User.create({
-    name: 'Diego Fernandes',
-    email: 'diego@mmm',
-    password_hash: '123456',
-  });
+routes.post('/users', UserController.store);
+routes.post('/sessions', SessionController.store);
 
-  res.send(user);
-});
+routes.put('/users', authMiddleware, UserController.update);
 
 export default routes;
