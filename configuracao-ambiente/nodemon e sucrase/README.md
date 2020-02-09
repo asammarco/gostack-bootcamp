@@ -13,13 +13,15 @@ No arquivo `package.json`, insira a chave **scripts**, da seguinte forma:
 
 ```
 [...]
+
 "license": "MIT",
 "scripts": {
     "dev":"nodemon src/server.js"
-  },
+},
 "dependencies": {
     "express": "^4.17.1"
-  },
+},
+
 [...]
 ```
 
@@ -44,10 +46,14 @@ yarn dev
 Novamente, no package.json de nossa aplicação, precisamos adicionar um segundo script, para fazer o debug da aplicação:
 
 ```
+[...]
+
 "scripts": {
     "dev":"nodemon src/server.js",
     "dev:debug":"nodemon --inspect src/server.js"
   },
+
+[...]
 ```
 
 Após, criar uma nova configuração de debug, clicando no ícone ``run debug`` do vs-code, e após, ``create a lauch.json file``.
@@ -67,4 +73,10 @@ Nesse arquivo, iremos inserir a seguinte configuração:
   ]
   
 [...]  
+```
+
+E dessa forma, para iniciar em modo debug, basta executar o comando:
+
+```
+yarn dev:debug
 ```
