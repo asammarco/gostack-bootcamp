@@ -16,3 +16,35 @@ No terminal, em nossa aplicação, execute o comando:
 ```
 yarn add sequelize
 ```
+
+Após, iremos instalar o sequelize-cli, dependência de desenvolvimento do sequelize, com as principais funcionalidades que utilizaremos, podendo ser acessadas via linha de comando (cli).
+
+```
+yarn add sequelize-cli -D
+```
+
+## Configuração
+
+Iniciaremos a configuração criando na raiz do nosso projeto, o arquivo `.sequelizerc`, com as seguintes informações:
+
+```
+const { resolve } = require('path');
+
+ module.exports = {
+   config: resolve(__dirname,'src', 'config', 'database.js'),
+   'models-path': resolve(__dirname,'src', 'app', 'models'),
+   'migrations-path': resolve(__dirname,'src', 'database', 'migrations'),
+   'seeders-path': resolve(__dirname,'src', 'database', 'seeds'),
+ }
+```
+
+Basicamente, esse arquivo contém os caminhos utilizados pelo sequelize em nossa aplicação:
+
+Caminho      | Descrição
+------------ | -------------
+../src/config/database.js | Caminho para o arquivo de configuração de nossa base de dados (hostname, usuário, senha, etc)
+../src/app/models | Indica a pasta na qual nossos models serão armazenados
+../src/database/migrations | Indica a pasta na qual nossos arquivos de migrations serão armazenados
+../src/database/seeds | Indica a pasta na qual nossos arquivos de seeds serão armazenados
+
+
