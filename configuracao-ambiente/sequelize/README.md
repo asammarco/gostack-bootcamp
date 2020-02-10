@@ -38,7 +38,7 @@ const { resolve } = require('path');
  }
 ```
 
-Basicamente, esse arquivo contém os caminhos utilizados pelo sequelize em nossa aplicação:
+Basicamente, esse arquivo configura os caminhos utilizados pelo sequelize em nossa aplicação:
 
 Caminho      | Descrição
 ------------ | -------------
