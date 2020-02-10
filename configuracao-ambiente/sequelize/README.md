@@ -10,3 +10,9 @@ Entre as diversas funcionalidades do Sequelize, estão:
 * a utilzação de linguagem JavaScript (e não SQL).
 
 ## Instalação
+
+No terminal, em nossa aplicação, execute o comando:
+
+```
+yarn add sequelize
+```

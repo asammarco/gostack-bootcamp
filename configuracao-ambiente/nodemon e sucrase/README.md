@@ -56,8 +56,8 @@ Novamente, no package.json de nossa aplicação, precisamos adicionar um segundo
 [...]
 ```
 
-Após, criar uma nova configuração de debug, clicando no ícone ``run debug`` do vs-code, e após, ``create a lauch.json file``.
-Nesse arquivo, iremos inserir a seguinte configuração:
+Após, criar uma nova configuração de debug, clicando no ícone ``run debug`` do vs-code, e após, ``create a launch.json file``.
+Na pasta `.vscode` criada, edite o arquivo `launch.json`, com as informaçoes abaixo:
 
 ```
 [...]
