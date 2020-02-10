@@ -70,7 +70,7 @@ module.exports = {
 **Atenção: Insira o arquivo ../config/database.js no .gitignore, pois este contém informações privadas de acesso a base de dados da aplicação**
 
 
-## Instalação pg e pg-host
+## Instalação do pg e pg-host
 
 Para que o nosso Sequelize converse com o PostgreSQL, precisamos instalar as dependências para este SGBD. Para isso, execute o comando abaixo:
 
@@ -82,6 +82,8 @@ yarn add pg pg-hstore
 
 ## Principais Comandos (CLI)
 
+
+### Migrations
 
 Migrate para criação da nossa tabela de Usuários:
 
@@ -106,4 +108,6 @@ Para desfazer todas as migrates:
 ```
 yarn sequelize db:migrate:undo:all
 ```
+
+### Seeds
 

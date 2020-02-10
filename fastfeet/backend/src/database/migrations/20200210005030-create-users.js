@@ -32,8 +32,8 @@ module.exports = {
       },
     });
 
-    return users.sync().then(async () => {
-      await users.create({
+    return users.sync().then(() => {
+      users.create({
         name: 'Distribuidora FastFeet',
         email: 'admin@fastfeet.com',
         password_hash: bcrypt.hashSync('123456', 8),

@@ -29,7 +29,7 @@ Por fim, para que o nodemon e o sucrase trabalhem juntos, precisamos criar um ar
 
 ```
 {
-  "exec-map":{
+  "execMap":{
   "js":"node -r sucrase/register"
   }
 }
