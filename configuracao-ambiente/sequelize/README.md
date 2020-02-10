@@ -48,3 +48,23 @@ Caminho      | Descrição
 ../src/database/seeds | Indica a pasta na qual nossos arquivos de seeds serão armazenados
 
 
+Dessa forma, precisaremos criar a estrutura de pastas acima, em nossa  aplicação.
+
+Criada as pastas, também precisaremos criar o arquivo `../config/database.js`, com as informações de acesso a nossa base de dados:
+
+```
+module.exports = {
+  dialect: 'postgres',
+  host: [endereço do host],
+  username: [usuário de acesso],
+  password: [senha do usuário],
+  database: [nome da base de dados],
+  define: {
+    timestamp: true,
+    underscored: true,
+    underscoredAll: true,
+  },
+};
+```
+
+**Atenção: Insira o arquivo ../config/database.js no .gitignore, pois este contém informações privadas de acesso a base de dados da aplicação**
