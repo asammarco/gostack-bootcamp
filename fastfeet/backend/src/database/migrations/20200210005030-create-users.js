@@ -22,6 +22,11 @@ module.exports = {
         type: Sequelize.STRING,
         allowNull: false,
       },
+      is_admin: {
+        type: Sequelize.BOOLEAN,
+        defaultValue: false,
+        allowNull: false,
+      },
       created_at: {
         type: Sequelize.DATE,
         allowNull: false,
@@ -32,10 +37,13 @@ module.exports = {
       },
     });
 
+    // Dados padrão do sistema devem ser criados em migrates e não em seeds.
+
     return users.sync().then(() => {
       users.create({
         name: 'Distribuidora FastFeet',
         email: 'admin@fastfeet.com',
+        is_admin: false,
         password_hash: bcrypt.hashSync('123456', 8),
         created_at: new Date(),
         updated_at: new Date(),

@@ -23,6 +23,10 @@ module.exports = {
         type: Sequelize.STRING,
         allowNull: true,
       },
+      bairro: {
+        type: Sequelize.STRING,
+        allowNull: false,
+      },
       estado: {
         type: Sequelize.STRING,
         allowNull: false,
@@ -35,10 +39,22 @@ module.exports = {
         type: Sequelize.STRING,
         allowNull: false,
       },
+      created_at: {
+        type: Sequelize.DATE,
+        allowNull: false,
+      },
+      updated_at: {
+        type: Sequelize.DATE,
+        allowNull: false,
+      },
+      created_by_user_id: {
+        type: Sequelize.INTEGER,
+        allowNull: false,
+      },
     });
   },
 
   down: queryInterface => {
-    return queryInterface.dropTable('recipientes');
+    return queryInterface.dropTable('recipients');
   },
 };
