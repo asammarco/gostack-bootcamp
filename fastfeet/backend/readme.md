@@ -16,7 +16,7 @@
 
 ## Middleware: auth
 
-* **loggedIn**: principal middleware de authenticação, verifica se o usuário está logado na aplicação (autenticado).
-* **checkAdmin**: verifica se o usuário autenticado é um Administrador.
+* **loggedIn**: verifica se o usuário está logado na aplicação (autenticado).
+* **checkAdmin**: verifica se o usuário logado é um Administrador.
 
-Dessa forma, podemos tratar em nossas rotas o caso em que o usuário deve estar autenticado para acessá-la, e também, o caso em que o usuário deve estar autenticado e ser um administrador.
+Portanto, podemos tratar o acesso às rotas cujas quais o usuário deve estar autenticado, e adicionalmente, o caso em que usuário autenticado deve ser um administrador. Essa solução garante um maior isolamento/encapsulamento dos middlewares de rota.
