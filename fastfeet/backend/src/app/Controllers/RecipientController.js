@@ -33,7 +33,8 @@ class RecipientController {
 
     // Cria um novo Recipient
     // Observação: Cria um relacionamento de associação
-    // Em que createdByUserId recebe o id do admin
+    // Em que createdByUserId recebe o id do admin oriundo do
+    // auth middleware
 
     const recipient = await Recipient.create({
       ...req.body,
