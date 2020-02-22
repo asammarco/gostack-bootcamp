@@ -19,4 +19,4 @@
 * **loggedIn**: verifica se o usuário está logado na aplicação (autenticado).
 * **checkAdmin**: verifica se o usuário logado é um Administrador.
 
-Portanto, podemos tratar o acesso às rotas cujas quais o usuário deve estar autenticado, e adicionalmente, o caso em que usuário autenticado deve ser um administrador. Essa solução garante um maior isolamento/encapsulamento dos middlewares de rota.
+Dessa forma, podemos tratar o acesso às rotas cujas quais o usuário deve estar autenticado, e adicionalmente, o caso em que usuário autenticado deve ser um administrador. Essa solução garante um maior isolamento/encapsulamento dos middlewares de rota.
