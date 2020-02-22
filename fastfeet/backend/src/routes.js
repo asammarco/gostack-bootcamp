@@ -11,7 +11,7 @@ routes.post('/sessions', SessionController.store);
 routes.get('/recipients', RecipientController.index);
 
 // Somente rotas com autenticação e role de Admin
-routes.use(authMiddleware.auth, authMiddleware.checkAdmin);
+routes.use(authMiddleware.loggedIn, authMiddleware.checkAdmin);
 routes.post('/recipients', RecipientController.store);
 routes.put(`/recipients/:id`, RecipientController.update);
 routes.delete(`/recipients/:id`, RecipientController.delete);
