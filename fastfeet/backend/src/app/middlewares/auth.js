@@ -3,31 +3,36 @@ import { promisify } from 'util';
 
 import authConfig from '../../config/auth';
 
-export default async (req, res, next) => {
-  const authHeader = req.headers.authorization;
+export default {
+  async auth(req, res, next) {
+    const authHeader = req.headers.authorization;
 
-  if (!authHeader) {
-    return res.status(401).json({ error: 'Token not provided' });
-  }
-
-  const [, token] = authHeader.split(' ');
-
-  try {
-    const decoded = await promisify(jwt.verify)(token, authConfig.secret);
-
-    if (!decoded) {
-      return res.status(401).json({ error: 'Token invalid' });
+    if (!authHeader) {
+      return res.status(401).json({ error: 'Token not provided' });
     }
 
-    // Valida se o usuário é Admin
-    if (!decoded.isAdmin) {
+    const [, token] = authHeader.split(' ');
+
+    try {
+      const decoded = await promisify(jwt.verify)(token, authConfig.secret);
+
+      if (!decoded) {
+        return res.status(401).json({ error: 'Token invalid' });
+      }
+
+      req.userId = decoded.id;
+      req.isAdmin = decoded.isAdmin;
+
+      return next();
+    } catch (err) {
+      return res.status(401).json({ error: 'Token invalid' });
+    }
+  },
+  checkAdmin(req, res, next) {
+    if (!req.isAdmin) {
       return res.status(401).json({ error: "User isn't Admin" });
     }
 
-    req.userId = decoded.id;
-
     return next();
-  } catch (err) {
-    return res.status(401).json({ error: 'Token invalid' });
-  }
+  },
 };
