@@ -43,7 +43,7 @@ module.exports = {
       users.create({
         name: 'Distribuidora FastFeet',
         email: 'admin@fastfeet.com',
-        is_admin: false,
+        is_admin: true,
         password_hash: bcrypt.hashSync('123456', 8),
         created_at: new Date(),
         updated_at: new Date(),
