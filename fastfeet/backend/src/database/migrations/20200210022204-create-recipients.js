@@ -51,6 +51,10 @@ module.exports = {
         type: Sequelize.INTEGER,
         allowNull: false,
       },
+      updated_by_user_id: {
+        type: Sequelize.INTEGER,
+        allowNull: true,
+      },
     });
   },
 

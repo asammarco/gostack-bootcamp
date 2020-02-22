@@ -13,6 +13,7 @@ class Recipient extends Model {
         estado: Sequelize.STRING,
         cep: Sequelize.STRING,
         createdByUserId: Sequelize.INTEGER,
+        updatedByUserId: Sequelize.INTEGER,
       },
       {
         sequelize,

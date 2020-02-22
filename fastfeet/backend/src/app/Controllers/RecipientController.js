@@ -85,7 +85,7 @@ class RecipientController {
       cidade,
       estado,
       cep,
-    } = await recipient.update(req.body);
+    } = await recipient.update({ ...req.body, updatedByUserId: req.userId });
 
     return res.json({
       id,

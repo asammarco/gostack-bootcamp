@@ -10,10 +10,13 @@ const routes = new Router();
 routes.post('/sessions', SessionController.store);
 routes.get('/recipients', RecipientController.index);
 
-// Somente rotas com autenticação e role de Admin
-routes.use(authMiddleware.loggedIn, authMiddleware.checkAdmin);
-routes.post('/recipients', RecipientController.store);
+// Somente rotas com autenticação
+routes.use(authMiddleware.loggedIn);
 routes.put(`/recipients/:id`, RecipientController.update);
+
+// Somente rotas com autenticação e role de Admin
+routes.use(authMiddleware.checkAdmin);
+routes.post('/recipients', RecipientController.store);
 routes.delete(`/recipients/:id`, RecipientController.delete);
 
 export default routes;
