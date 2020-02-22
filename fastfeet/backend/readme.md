@@ -8,7 +8,7 @@
 
 ## Model: Recipient
 
-* **createdByUserId**: como um Recipient só pode ser criado por um admin, na modelagem de Recipient foi incluído o atributo **createdByUserId**. Com este relacionamento de associação, pode-se obter maior qualidade sobre o cadastro de Recipient. Dessa forma, é possível obter qual administrador criou quais Recipients.
+* **createdByUserId**: como um Recipient só pode ser criado por um admin, na modelagem de Recipient foi incluído o atributo createdByUserId. Com este relacionamento de associação, pode-se obter maior qualidade sobre o cadastro de Recipient, sendo possível verificar qual administrador criou quais Recipients.
 * **updatedByUserId**: este atributo foi adicionado na modelagem de Recipient, com intuito de podermos verificar qual usuário editou/atualizou os dados de um Recipient.
 
 ## Controller: RecipientController
