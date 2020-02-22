@@ -19,6 +19,6 @@
 ## Middleware: auth
 
 * **loggedIn**: verifica se o usuário está logado na aplicação (autenticado). Armazena o id do usuário na requisição, e também, o valor de isAdmin.
-* **checkAdmin**: verifica se o usuário logado é um Administrador, utilizando o valor de isAdmin, atribuído a requisição em **loggedIn**.
+* **checkAdmin**: verifica se o usuário logado é um Administrador, utilizando o valor de isAdmin, atribuído à requisição em **loggedIn**.
 
 Dessa forma, podemos tratar o acesso às rotas cujas quais o usuário deve estar autenticado, e adicionalmente, o caso em que o usuário autenticado deve ser um administrador. Essa solução garante um maior isolamento/encapsulamento dos middlewares de rota.
