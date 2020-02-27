@@ -9,25 +9,12 @@ class User extends Model {
         email: Sequelize.STRING,
         password: Sequelize.VIRTUAL,
         password_hash: Sequelize.STRING,
-        provider: Sequelize.BOOLEAN,
+        isAdmin: Sequelize.BOOLEAN,
       },
       {
         sequelize,
       }
     );
-
-    // Código executado, antes das informações serem criadas no Banco De Dados
-    this.addHook('beforeSave', async user => {
-      if (user.password) {
-        user.password_hash = await bcrypt.hash(user.password, 8);
-      }
-    });
-
-    return this;
-  }
-
-  static associate(models) {
-    this.belongsTo(models.File, { foreignKey: 'avatar_id', as: 'avatar' });
   }
 
   checkPassword(password) {
